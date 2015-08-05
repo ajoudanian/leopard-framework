@@ -1,1 +1,13 @@
+/*!
+ * Leopard v1.0.0
+ * Copyright 2011-2015 Amir Ajoudanian (amir@ajoudanian.com)
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+// Core variables and mixins
+@import "leopard/variables";
+@import "leopard/mixins";
+
+// Reset and dependencies
 @import "leopard/normalize";
+@import "leopard/print";
