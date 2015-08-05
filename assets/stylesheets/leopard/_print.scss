@@ -69,20 +69,20 @@
     // Bootstrap specific changes start
 
     // Bootstrap components
-    .navbar {
+    .leo-navbar {
         display: none;
     }
-    .btn,
-    .dropup > .btn {
-        > .caret {
+    .leo-btn,
+    .leo-dropup > .leo-btn {
+        > .leo-caret {
             border-top-color: #000 !important;
         }
     }
-    .label {
+    .leo-label {
         border: 1px solid #000;
     }
 
-    .table {
+    .leo-table {
         border-collapse: collapse !important;
 
         td,
@@ -90,7 +90,7 @@
             background-color: #fff !important;
         }
     }
-    .table-bordered {
+    .leo-table-bordered {
         th,
         td {
             border: 1px solid #ddd !important;
