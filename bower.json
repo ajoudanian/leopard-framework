@@ -1,0 +1,16 @@
+{
+  "name": "leopard framework",
+  "version": "0.0.0",
+  "authors": [
+    "amir ajoudanian <ajoudanian@gmail.com>"
+  ],
+  "description": "a css framework for leopard nfs project like bootstrap",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
