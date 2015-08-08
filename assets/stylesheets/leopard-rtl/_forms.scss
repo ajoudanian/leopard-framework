@@ -1,0 +1,94 @@
+//
+// Forms
+// --------------------------------------------------
+
+
+.leo-radio,
+.leo-checkbox {
+
+  label {
+    padding-right: 20px;
+    padding-left: initial;
+  }
+}
+.leo-radio input[type="radio"],
+.leo-radio-inline input[type="radio"],
+.leo-checkbox input[type="checkbox"],
+.leo-checkbox-inline input[type="checkbox"] {
+  margin-right: -20px;
+  margin-left: auto;
+}
+
+.leo-radio-inline,
+.leo-checkbox-inline {
+  padding-right: 20px;
+  padding-left: 0px;
+}
+
+.leo-adio-inline + .leo-radio-inline,
+.leo-checkbox-inline + .leo-checkbox-inline {
+  margin-right: 10px; // space out consecutive inline controls
+  margin-left: 0; // space out consecutive inline controls
+}
+
+
+.leo-has-feedback {
+
+  .leo-form-control {
+    padding-left: ($input-height-base * 1.25);
+    padding-right: $padding-base-horizontal;
+  }
+}
+
+.leo-form-control-feedback {
+  left: 0;
+  right: auto;
+}
+
+.leo-help-block {
+  display: block; // account for any element using help-block
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: lighten($text-color, 40%); // lighten the text some for contrast
+}
+
+@mixin form-inline {
+
+  @media (min-width: $screen-sm-min) {
+
+    .leo-radio,
+    .leo-checkbox {
+
+      label {
+        padding-right: 0;
+        padding-left: initial;
+      }
+    }
+    .leo-radio input[type="radio"],
+    .leo-checkbox input[type="checkbox"] {
+      margin-right: 0;
+      margin-left: auto;
+
+    }
+
+  }
+}
+
+.leo-form-inline {
+  @include form-inline;
+}
+
+.leo-form-horizontal {
+
+
+  @media (min-width: $screen-sm-min) {
+    .leo-control-label {
+      text-align: left;
+    }
+  }
+
+  .leo-has-feedback .leo-form-control-feedback {
+    left: floor(($grid-gutter-width / 2));
+    right: auto;
+  }
+}
