@@ -112,7 +112,7 @@ output {
 // input[type="tel"]
 // input[type="color"]
 
-.form-control {
+.leo-form-control {
   display: block;
   width: 100%;
   height: $input-height-base; // Make inputs at least the height of their button counterpart (base line-height + padding + border)
@@ -124,7 +124,6 @@ output {
   background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   border: 1px solid $input-border;
   border-radius: $input-border-radius; // Note: This has no effect on <select>s in some browsers, due to the limited stylability of <select>s in CSS.
-  @include box-shadow(inset 0 1px 1px rgba(0,0,0,.075));
   @include transition(border-color ease-in-out .15s, box-shadow ease-in-out .15s);
 
   // Customize the `:focus` state to imitate native WebKit styles.
@@ -154,7 +153,7 @@ output {
 }
 
 // Reset height for `textarea`s
-textarea.form-control {
+textarea.leo-form-control {
   height: auto;
 }
 
@@ -185,17 +184,17 @@ input[type="search"] {
   input[type="time"],
   input[type="datetime-local"],
   input[type="month"] {
-    &.form-control {
+    &.leo-form-control {
       line-height: $input-height-base;
     }
 
-    &.input-sm,
-    .input-group-sm & {
+    &.leo-input-sm,
+    .leo-input-group-sm & {
       line-height: $input-height-small;
     }
 
-    &.input-lg,
-    .input-group-lg & {
+    &.leo-input-lg,
+    .leo-input-group-lg & {
       line-height: $input-height-large;
     }
   }
@@ -207,7 +206,7 @@ input[type="search"] {
 // Designed to help with the organization and spacing of vertical forms. For
 // horizontal forms, use the predefined grid classes.
 
-.form-group {
+.leo-form-group {
   margin-bottom: $form-group-margin-bottom;
 }
 
@@ -216,8 +215,8 @@ input[type="search"] {
 //
 // Indent the labels to position radios/checkboxes as hanging controls.
 
-.radio,
-.checkbox {
+.leo-radio,
+.leo-checkbox {
   position: relative;
   display: block;
   margin-top: 10px;
@@ -231,23 +230,23 @@ input[type="search"] {
     cursor: pointer;
   }
 }
-.radio input[type="radio"],
-.radio-inline input[type="radio"],
-.checkbox input[type="checkbox"],
-.checkbox-inline input[type="checkbox"] {
+.leo-radio input[type="radio"],
+.leo-radio-inline input[type="radio"],
+.leo-checkbox input[type="checkbox"],
+.leo-checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
   margin-top: 4px \9;
 }
 
-.radio + .radio,
-.checkbox + .checkbox {
+.leo-radio + .leo-radio,
+.leo-checkbox + .leo-checkbox {
   margin-top: -5px; // Move up sibling radios or checkboxes for tighter spacing
 }
 
 // Radios and checkboxes on same line
-.radio-inline,
-.checkbox-inline {
+.leo-radio-inline,
+.leo-checkbox-inline {
   position: relative;
   display: inline-block;
   padding-left: 20px;
@@ -256,8 +255,8 @@ input[type="search"] {
   font-weight: normal;
   cursor: pointer;
 }
-.radio-inline + .radio-inline,
-.checkbox-inline + .checkbox-inline {
+.leo-adio-inline + .leo-radio-inline,
+.leo-checkbox-inline + .leo-checkbox-inline {
   margin-top: 0;
   margin-left: 10px; // space out consecutive inline controls
 }
@@ -275,16 +274,16 @@ input[type="checkbox"] {
   }
 }
 // These classes are used directly on <label>s
-.radio-inline,
-.checkbox-inline {
+.leo-radio-inline,
+.leo-checkbox-inline {
   &.disabled,
   fieldset[disabled] & {
     cursor: $cursor-disabled;
   }
 }
 // These classes are used on elements with <label> descendants
-.radio,
-.checkbox {
+.leo-radio,
+.leo-checkbox {
   &.disabled,
   fieldset[disabled] & {
     label {
@@ -299,7 +298,7 @@ input[type="checkbox"] {
 // Apply class to a `p` element to make any string of text align with labels in
 // a horizontal form layout.
 
-.form-control-static {
+.leo-form-control-static {
   // Size it appropriately next to real form controls
   padding-top: ($padding-base-vertical + 1);
   padding-bottom: ($padding-base-vertical + 1);
@@ -307,8 +306,8 @@ input[type="checkbox"] {
   margin-bottom: 0;
   min-height: ($line-height-computed + $font-size-base);
 
-  &.input-lg,
-  &.input-sm {
+  &.leo-input-lg,
+  &.leo-input-sm {
     padding-left: 0;
     padding-right: 0;
   }
@@ -324,23 +323,23 @@ input[type="checkbox"] {
 // issue documented in https://github.com/twbs/bootstrap/issues/15074.
 
 @include input-size('.input-sm', $input-height-small, $padding-small-vertical, $padding-small-horizontal, $font-size-small, $line-height-small, $input-border-radius-small);
-.form-group-sm {
-  .form-control {
+.leo-form-group-sm {
+  .leo-form-control {
     height: $input-height-small;
     padding: $padding-small-vertical $padding-small-horizontal;
     font-size: $font-size-small;
     line-height: $line-height-small;
     border-radius: $input-border-radius-small;
   }
-  select.form-control {
+  select.leo-form-control {
     height: $input-height-small;
     line-height: $input-height-small;
   }
-  textarea.form-control,
+  textarea.leo-form-control,
   select[multiple].form-control {
     height: auto;
   }
-  .form-control-static {
+  .leo-form-control-static {
     height: $input-height-small;
     min-height: ($line-height-computed + $font-size-small);
     padding: ($padding-small-vertical + 1) $padding-small-horizontal;
@@ -350,23 +349,23 @@ input[type="checkbox"] {
 }
 
 @include input-size('.input-lg', $input-height-large, $padding-large-vertical, $padding-large-horizontal, $font-size-large, $line-height-large, $input-border-radius-large);
-.form-group-lg {
-  .form-control {
+.leo-form-group-lg {
+  .leo-form-control {
     height: $input-height-large;
     padding: $padding-large-vertical $padding-large-horizontal;
     font-size: $font-size-large;
     line-height: $line-height-large;
     border-radius: $input-border-radius-large;
   }
-  select.form-control {
+  select.leo-form-control {
     height: $input-height-large;
     line-height: $input-height-large;
   }
-  textarea.form-control,
-  select[multiple].form-control {
+  textarea.leo-form-control,
+  select[multiple].leo-form-control {
     height: auto;
   }
-  .form-control-static {
+  .leo-form-control-static {
     height: $input-height-large;
     min-height: ($line-height-computed + $font-size-large);
     padding: ($padding-large-vertical + 1) $padding-large-horizontal;
@@ -380,17 +379,17 @@ input[type="checkbox"] {
 //
 // Apply contextual and semantic states to individual form controls.
 
-.has-feedback {
+.leo-has-feedback {
   // Enable absolute positioning
   position: relative;
 
   // Ensure icons don't overlap text
-  .form-control {
+  .leo-form-control {
     padding-right: ($input-height-base * 1.25);
   }
 }
 // Feedback icon (requires .glyphicon classes)
-.form-control-feedback {
+.leo-form-control-feedback {
   position: absolute;
   top: 0;
   right: 0;
@@ -402,36 +401,36 @@ input[type="checkbox"] {
   text-align: center;
   pointer-events: none;
 }
-.input-lg + .form-control-feedback,
-.input-group-lg + .form-control-feedback,
-.form-group-lg .form-control + .form-control-feedback {
+.leo-input-lg + .leo-form-control-feedback,
+.leo-input-group-lg + .leo-form-control-feedback,
+.leo-form-group-lg .leo-form-control + .leo-form-control-feedback {
   width: $input-height-large;
   height: $input-height-large;
   line-height: $input-height-large;
 }
-.input-sm + .form-control-feedback,
-.input-group-sm + .form-control-feedback,
-.form-group-sm .form-control + .form-control-feedback {
+.leo-input-sm + .leo-form-control-feedback,
+.leo-input-group-sm + .leo-form-control-feedback,
+.leo-form-group-sm .leo-form-control + .leo-form-control-feedback {
   width: $input-height-small;
   height: $input-height-small;
   line-height: $input-height-small;
 }
 
 // Feedback states
-.has-success {
+.leo-has-success {
   @include form-control-validation($state-success-text, $state-success-text, $state-success-bg);
 }
-.has-warning {
+.leo-has-warning {
   @include form-control-validation($state-warning-text, $state-warning-text, $state-warning-bg);
 }
-.has-error {
+.leo-has-error {
   @include form-control-validation($state-danger-text, $state-danger-text, $state-danger-bg);
 }
 
 // Reposition feedback icon if input has visible label above
-.has-feedback label {
+.leo-has-feedback label {
 
-  & ~ .form-control-feedback {
+  & ~ .leo-form-control-feedback {
      top: ($line-height-computed + 5); // Height of the `label` and its margin
   }
   &.sr-only ~ .form-control-feedback {
@@ -445,11 +444,11 @@ input[type="checkbox"] {
 // Apply to any element you wish to create light text for placement immediately
 // below a form control. Use for general help, formatting, or instructional text.
 
-.help-block {
+.leo-help-block {
   display: block; // account for any element using help-block
   margin-top: 5px;
   margin-bottom: 10px;
-  color: lighten($text-color, 25%); // lighten the text some for contrast
+  color: lighten($text-color, 40%); // lighten the text some for contrast
 }
 
 
@@ -470,49 +469,49 @@ input[type="checkbox"] {
   // Kick in the inline
   @media (min-width: $screen-sm-min) {
     // Inline-block all the things for "inline"
-    .form-group {
+    .leo-form-group {
       display: inline-block;
       margin-bottom: 0;
       vertical-align: middle;
     }
 
     // In navbar-form, allow folks to *not* use `.form-group`
-    .form-control {
+    .leo-form-control {
       display: inline-block;
       width: auto; // Prevent labels from stacking above inputs in `.form-group`
       vertical-align: middle;
     }
 
     // Make static controls behave like regular ones
-    .form-control-static {
+    .leo-form-control-static {
       display: inline-block;
     }
 
-    .input-group {
+    .leo-input-group {
       display: inline-table;
       vertical-align: middle;
 
-      .input-group-addon,
-      .input-group-btn,
-      .form-control {
+      .leo-input-group-addon,
+      .leo-input-group-btn,
+      .leo-form-control {
         width: auto;
       }
     }
 
     // Input groups need that 100% width though
-    .input-group > .form-control {
+    .leo-input-group > .leo-form-control {
       width: 100%;
     }
 
-    .control-label {
+    .leo-control-label {
       margin-bottom: 0;
       vertical-align: middle;
     }
 
     // Remove default margin on radios/checkboxes that were used for stacking, and
     // then undo the floating of radios and checkboxes to match.
-    .radio,
-    .checkbox {
+    .leo-radio,
+    .leo-checkbox {
       display: inline-block;
       margin-top: 0;
       margin-bottom: 0;
@@ -522,20 +521,20 @@ input[type="checkbox"] {
         padding-left: 0;
       }
     }
-    .radio input[type="radio"],
-    .checkbox input[type="checkbox"] {
+    .leo-radio input[type="radio"],
+    .leo-checkbox input[type="checkbox"] {
       position: relative;
       margin-left: 0;
     }
 
     // Re-override the feedback icon.
-    .has-feedback .form-control-feedback {
+    .leo-has-feedback .form-control-feedback {
       top: 0;
     }
   }
 }
 // [converter] extracted as `@mixin form-inline` for libsass compatibility
-.form-inline {
+.leo-form-inline {
   @include form-inline;
 }
 
@@ -546,35 +545,35 @@ input[type="checkbox"] {
 // Horizontal forms are built on grid classes and allow you to create forms with
 // labels on the left and inputs on the right.
 
-.form-horizontal {
+.leo-form-horizontal {
 
   // Consistent vertical alignment of radios and checkboxes
   //
   // Labels also get some reset styles, but that is scoped to a media query below.
-  .radio,
-  .checkbox,
-  .radio-inline,
-  .checkbox-inline {
+  .leo-radio,
+  .leo-checkbox,
+  .leo-radio-inline,
+  .leo-checkbox-inline {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: ($padding-base-vertical + 1); // Default padding plus a border
   }
   // Account for padding we're adding to ensure the alignment and of help text
   // and other content below items
-  .radio,
-  .checkbox {
+  .leo-radio,
+  .leo-checkbox {
     min-height: ($line-height-computed + ($padding-base-vertical + 1));
   }
 
   // Make form groups behave like rows
-  .form-group {
+  .leo-form-group {
     @include make-row;
   }
 
   // Reset spacing and right align labels, but scope to media queries so that
   // labels on narrow viewports stack the same as a default form example.
   @media (min-width: $screen-sm-min) {
-    .control-label {
+    .leo-control-label {
       text-align: right;
       margin-bottom: 0;
       padding-top: ($padding-base-vertical + 1); // Default padding plus a border
@@ -585,7 +584,7 @@ input[type="checkbox"] {
   //
   // Reposition the icon because it's now within a grid column and columns have
   // `position: relative;` on them. Also accounts for the grid gutter padding.
-  .has-feedback .form-control-feedback {
+  .leo-has-feedback .leo-form-control-feedback {
     right: floor(($grid-gutter-width / 2));
   }
 
@@ -593,17 +592,17 @@ input[type="checkbox"] {
   //
   // Quick utility class for applying `.input-lg` and `.input-sm` styles to the
   // inputs and labels within a `.form-group`.
-  .form-group-lg {
+  .leo-form-group-lg {
     @media (min-width: $screen-sm-min) {
-      .control-label {
+      .leo-control-label {
         padding-top: (($padding-large-vertical * $line-height-large) + 1);
         font-size: $font-size-large;
       }
     }
   }
-  .form-group-sm {
+  .leo-form-group-sm {
     @media (min-width: $screen-sm-min) {
-      .control-label {
+      .leo-control-label {
         padding-top: ($padding-small-vertical + 1);
         font-size: $font-size-small;
       }
