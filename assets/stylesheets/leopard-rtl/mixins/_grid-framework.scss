@@ -1,0 +1,76 @@
+// Framework grid generation
+//
+// Used only by Bootstrap to generate the correct number of grid classes given
+// any value of `$grid-columns`.
+
+// [converter] This is defined recursively in LESS, but Sass supports real loops
+@mixin make-grid-columns($i: 1, $list: ".leo-col-xs-#{$i}, .leo-col-sm-#{$i}, .leo-col-md-#{$i}, .leo-col-lg-#{$i}") {
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .leo-col-xs-#{$i}, .leo-col-sm-#{$i}, .leo-col-md-#{$i}, .leo-col-lg-#{$i}";
+  }
+  #{$list} {
+    // Prevent columns from collapsing when empty
+    // Inner gutter via padding
+  }
+}
+
+
+// [converter] This is defined recursively in LESS, but Sass supports real loops
+@mixin float-grid-columns($class, $i: 1, $list: ".leo-col-#{$class}-#{$i}") {
+  @for $i from (1 + 1) through $grid-columns {
+    $list: "#{$list}, .leo-col-#{$class}-#{$i}";
+  }
+  #{$list} {
+    float: right;
+  }
+}
+
+
+@mixin calc-grid-column($index, $class, $type) {
+  @if ($type == push) and ($index > 0) {
+    .leo-col-#{$class}-push-#{$index} {
+      right: percentage(($index / $grid-columns));
+      left: 0;
+    }
+  }
+  @if ($type == push) and ($index == 0) {
+    .leo-col-#{$class}-push-0 {
+      right: 0;
+    }
+  }
+  @if ($type == pull) and ($index > 0) {
+    .leo-col-#{$class}-pull-#{$index} {
+      right: percentage(($index / $grid-columns));
+      left: auto;
+    }
+  }
+  @if ($type == pull) and ($index == 0) {
+    .leo-col-#{$class}-pull-0 {
+      right: auto;
+      left: auto;
+    }
+  }
+  @if ($type == offset) {
+    .leo-col-#{$class}-offset-#{$index} {
+      margin-right: percentage(($index / $grid-columns));
+      margin-left: 0;
+    }
+  }
+}
+
+// [converter] This is defined recursively in LESS, but Sass supports real loops
+@mixin loop-grid-columns($columns, $class, $type) {
+  @for $i from 0 through $columns {
+    @include calc-grid-column($i, $class, $type);
+  }
+}
+
+
+// Create grid for specific class
+@mixin make-grid($class) {
+  @include float-grid-columns($class);
+  @include loop-grid-columns($grid-columns, $class, width);
+  @include loop-grid-columns($grid-columns, $class, pull);
+  @include loop-grid-columns($grid-columns, $class, push);
+  @include loop-grid-columns($grid-columns, $class, offset);
+}
