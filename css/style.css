@@ -3,3 +3,12 @@
     background-color: aquamarine;
     border: 1px solid darkgreen;
 }
+
+
+.site-container
+{
+    width: 870px;
+    margin: 0 auto;
+    background: #eeeeee;
+    border: 1px solid #444444;
+}

@@ -337,8 +337,8 @@ hr {
 .leo-container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 5px;
-  padding-right: 5px; }
+  padding-left: 10px;
+  padding-right: 10px; }
   .leo-container:before,
   .leo-container:after {
     content: " ";
@@ -355,16 +355,16 @@ hr {
     .leo-container {
       width: 1150px; } }
 
-.leo-container-fluid {
+.leo-container-flex {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 5px;
-  padding-right: 5px; }
-  .leo-container-fluid:before,
-  .leo-container-fluid:after {
+  padding-left: 10px;
+  padding-right: 10px; }
+  .leo-container-flex:before,
+  .leo-container-flex:after {
     content: " ";
     display: table; }
-  .leo-container-fluid:after {
+  .leo-container-flex:after {
     clear: both; }
 
 .lwo-row {
