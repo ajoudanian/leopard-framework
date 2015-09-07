@@ -367,14 +367,14 @@ hr {
   .leo-container-flex:after {
     clear: both; }
 
-.lwo-row {
+.leo-row {
   margin-left: -5px;
   margin-right: -5px; }
-  .lwo-row:before,
-  .lwo-row:after {
+  .leo-row:before,
+  .leo-row:after {
     content: " ";
     display: table; }
-  .lwo-row:after {
+  .leo-row:after {
     clear: both; }
 
 .leo-col-xs-1, .leo-col-sm-1, .leo-col-md-1, .leo-col-lg-1, .leo-col-xs-2, .leo-col-sm-2, .leo-col-md-2, .leo-col-lg-2, .leo-col-xs-3, .leo-col-sm-3, .leo-col-md-3, .leo-col-lg-3, .leo-col-xs-4, .leo-col-sm-4, .leo-col-md-4, .leo-col-lg-4, .leo-col-xs-5, .leo-col-sm-5, .leo-col-md-5, .leo-col-lg-5, .leo-col-xs-6, .leo-col-sm-6, .leo-col-md-6, .leo-col-lg-6, .leo-col-xs-7, .leo-col-sm-7, .leo-col-md-7, .leo-col-lg-7, .leo-col-xs-8, .leo-col-sm-8, .leo-col-md-8, .leo-col-lg-8, .leo-col-xs-9, .leo-col-sm-9, .leo-col-md-9, .leo-col-lg-9, .leo-col-xs-10, .leo-col-sm-10, .leo-col-md-10, .leo-col-lg-10, .leo-col-xs-11, .leo-col-sm-11, .leo-col-md-11, .leo-col-lg-11, .leo-col-xs-12, .leo-col-sm-12, .leo-col-md-12, .leo-col-lg-12, .leo-col-xs-13, .leo-col-sm-13, .leo-col-md-13, .leo-col-lg-13, .leo-col-xs-14, .leo-col-sm-14, .leo-col-md-14, .leo-col-lg-14, .leo-col-xs-15, .leo-col-sm-15, .leo-col-md-15, .leo-col-lg-15, .leo-col-xs-16, .leo-col-sm-16, .leo-col-md-16, .leo-col-lg-16, .leo-col-xs-17, .leo-col-sm-17, .leo-col-md-17, .leo-col-lg-17, .leo-col-xs-18, .leo-col-sm-18, .leo-col-md-18, .leo-col-lg-18, .leo-col-xs-19, .leo-col-sm-19, .leo-col-md-19, .leo-col-lg-19, .leo-col-xs-20, .leo-col-sm-20, .leo-col-md-20, .leo-col-lg-20, .leo-col-xs-21, .leo-col-sm-21, .leo-col-md-21, .leo-col-lg-21, .leo-col-xs-22, .leo-col-sm-22, .leo-col-md-22, .leo-col-lg-22, .leo-col-xs-23, .leo-col-sm-23, .leo-col-md-23, .leo-col-lg-23, .leo-col-xs-24, .leo-col-sm-24, .leo-col-md-24, .leo-col-lg-24 {
@@ -1350,7 +1350,7 @@ output {
 
 .leo-form-control {
   display: block;
-  width: 100%;
+  width: 100% !important;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
@@ -1771,3 +1771,222 @@ select[multiple].input-lg {
   .leo-form-horizontal .leo-form-group-sm .leo-control-label {
     padding-top: 6px;
     font-size: 12px; } }
+
+legend {
+  width: auto;
+  padding: 0 10px;
+  border-bottom: none; }
+
+.leo-clearfix:before,
+.leo-clearfix:after {
+  content: " ";
+  display: table; }
+
+.leo-clearfix:after {
+  clear: both; }
+
+.leo-center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+.leo-pull-right {
+  float: right !important; }
+
+.leo-pull-left {
+  float: left !important; }
+
+.leo-hide {
+  display: none !important; }
+
+.leo-show {
+  display: block !important; }
+
+.lwo-invisible {
+  visibility: hidden; }
+
+.lwo-text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.leo-hidden {
+  display: none !important; }
+
+.leo-affix {
+  position: fixed; }
+
+@-ms-viewport {
+  width: device-width; }
+
+.visible-xs {
+  display: none !important; }
+
+.visible-sm {
+  display: none !important; }
+
+.visible-md {
+  display: none !important; }
+
+.visible-lg {
+  display: none !important; }
+
+.leo-visible-xs-block,
+.leo-visible-xs-inline,
+.leo-visible-xs-inline-block,
+.leo-visible-sm-block,
+.leo-visible-sm-inline,
+.leo-visible-sm-inline-block,
+.leo-visible-md-block,
+.leo-visible-md-inline,
+.leo-visible-md-inline-block,
+.leo-visible-lg-block,
+.leo-visible-lg-inline,
+.leo-visible-lg-inline-block {
+  display: none !important; }
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important; }
+  table.visible-xs {
+    display: table !important; }
+  tr.visible-xs {
+    display: table-row !important; }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important; } }
+
+@media (max-width: 767px) {
+  .leo-visible-xs-block {
+    display: block !important; } }
+
+@media (max-width: 767px) {
+  .leo-visible-xs-inline {
+    display: inline !important; } }
+
+@media (max-width: 767px) {
+  .leo-visible-xs-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important; }
+  table.visible-sm {
+    display: table !important; }
+  tr.visible-sm {
+    display: table-row !important; }
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .leo-visible-sm-block {
+    display: block !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .leo-visible-sm-inline {
+    display: inline !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .leo-visible-sm-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important; }
+  table.visible-md {
+    display: table !important; }
+  tr.visible-md {
+    display: table-row !important; }
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .leo-visible-md-block {
+    display: block !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .leo-visible-md-inline {
+    display: inline !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .leo-visible-md-inline-block {
+    display: inline-block !important; } }
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important; }
+  table.visible-lg {
+    display: table !important; }
+  tr.visible-lg {
+    display: table-row !important; }
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important; } }
+
+@media (min-width: 1200px) {
+  .leo-visible-lg-block {
+    display: block !important; } }
+
+@media (min-width: 1200px) {
+  .leo-visible-lg-inline {
+    display: inline !important; } }
+
+@media (min-width: 1200px) {
+  .leo-visible-lg-inline-block {
+    display: inline-block !important; } }
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important; } }
+
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important; } }
+
+.visible-print {
+  display: none !important; }
+
+@media print {
+  .visible-print {
+    display: block !important; }
+  table.visible-print {
+    display: table !important; }
+  tr.visible-print {
+    display: table-row !important; }
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important; } }
+
+.leo-visible-print-block {
+  display: none !important; }
+  @media print {
+    .leo-visible-print-block {
+      display: block !important; } }
+
+.leo-visible-print-inline {
+  display: none !important; }
+  @media print {
+    .leo-visible-print-inline {
+      display: inline !important; } }
+
+.leo-visible-print-inline-block {
+  display: none !important; }
+  @media print {
+    .leo-visible-print-inline-block {
+      display: inline-block !important; } }
+
+@media print {
+  .hidden-print {
+    display: none !important; } }

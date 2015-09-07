@@ -33,8 +33,30 @@
 @import "mixins/gradients";
 
 // Layout
-@import "mixins/clearfix";
-@import "mixins/center-block";
+//@import "mixins/clearfix";
+
+@mixin clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+//@import "mixins/center-block";
+
+
+@mixin center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 @import "mixins/nav-vertical-align";
 @import "mixins/grid-framework";
 @import "mixins/grid";

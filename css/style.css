@@ -12,3 +12,8 @@
     background: #eeeeee;
     border: 1px solid #444444;
 }
+
+.leo-row > div{
+    border: 1px solid red;
+
+}

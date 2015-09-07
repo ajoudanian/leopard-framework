@@ -7,6 +7,7 @@
 // Core variables and mixins
 @import "leopard/variables";
 @import "leopard/mixins";
+//@import "leopard/mixins";
 
 // Reset and dependencies
 @import "leopard/normalize";
@@ -17,3 +18,8 @@
 @import "leopard/scaffolding";
 @import "leopard/grid";
 @import "leopard/forms";
+
+// Utility classes
+@import "leopard/utilities";
+@import "leopard/responsive-utilities";
+

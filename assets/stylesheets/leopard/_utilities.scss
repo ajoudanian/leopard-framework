@@ -1,0 +1,59 @@
+//
+// Utility classes
+// --------------------------------------------------
+
+
+// Floats
+// -------------------------
+
+
+@import "../leopard/mixins";
+
+
+.leo-clearfix {
+  @include clearfix;
+}
+.leo-center-block {
+  @include center-block;
+}
+.leo-pull-right {
+  float: right !important;
+}
+.leo-pull-left {
+  float: left !important;
+}
+
+
+// Toggling content
+// -------------------------
+
+// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+.leo-hide {
+  display: none !important;
+}
+.leo-show {
+  display: block !important;
+}
+.lwo-invisible {
+  visibility: hidden;
+}
+.lwo-text-hide {
+  @include text-hide;
+}
+
+
+// Hide from screenreaders and browsers
+//
+// Credit: HTML5 Boilerplate
+
+.leo-hidden {
+  display: none !important;
+}
+
+
+// For Affix plugin
+// -------------------------
+
+.leo-affix {
+  position: fixed;
+}
