@@ -5,7 +5,7 @@
  */
 
 // Core variables and mixins
-@import "leopard/variables";
+//@import "leopard/variables";
 @import "leopard/mixins";
 //@import "leopard/mixins";
 
@@ -18,8 +18,10 @@
 @import "leopard/scaffolding";
 @import "leopard/grid";
 @import "leopard/forms";
+@import "leopard/buttons";
 
 // Utility classes
 @import "leopard/utilities";
 @import "leopard/responsive-utilities";
 
+@import "leopard/components";

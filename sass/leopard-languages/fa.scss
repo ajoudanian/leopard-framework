@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'WRoya';
+  src: url('../fonts/RoyaWeb-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'WRoya';
+  src: url('../fonts/RoyaWeb-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+
+//body {
+//  font-family: WRoya,tahoma;
+//}
+
+
+$font-family-sans-serif:  WRoya , Tahoma , Arial, sans-serif;
+$font-family-serif:       WRoya , "Times New Roman", Times, serif;
+$font-family-monospace:   WRoya ,Menlo, Monaco, Consolas, "Courier New", monospace !default;
+
+$font-size-base: 16px;
+
+
+@import '../../assets/stylesheets/variables';
+@import '../../assets/stylesheets/_leopard';
+@import '../../assets/stylesheets/_leopard-rtl';
