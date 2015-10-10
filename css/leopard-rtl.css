@@ -3,6 +3,11 @@
  * Copyright 2011-2015 Amir Ajoudanian (amir@ajoudanian.com)
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.btn [class^="claw-"], .btn [class*=" claw-"] {
+  float: right;
+  margin-left: 7px;
+  margin-right: 0; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html {
   direction: rtl; }

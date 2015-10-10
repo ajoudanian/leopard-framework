@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Leopard Framework Test Page</title>
-    <link rel="stylesheet" href="../css/leopard.css"/>
-    <link rel="stylesheet" href="../css/leopard-rtl.css"/>
     <link rel="stylesheet" href="../css/leopard-languages/fa.css"/>
     <link rel="stylesheet" href="../css/style.css"/>
 </head>
@@ -24,7 +22,7 @@
 نمایش اعداد: ۰۱۲۳۴۵۶۷۸۹
 نمایش اعداد:1234567890
         <div class="leo-form-group">
-            <label for="ComboOrganChart">واحد سازماني</label>
+            <label for="ComboOrganChart">واحد سازمانی</label>
             <select class="leo-form-control" id="ComboOrganChart" name="ComboOrganChart">
                 <option value="00000000-0000-0000-0000-000000000000">انتخاب نشده</option>
                 <option value="f250789e-94e0-453c-ba92-37eeb3493e10">Atlantic</option>
@@ -36,15 +34,15 @@
 
 
 
-
-        <div class="searchbar floatdiv">
-            <span class="floatdiv  margin-top5 margin-lr5">تا</span>
-            <input class="NfsCalendar hasCalendarsPicker" id="EDateOfEmployee" type="text" value="">
+    <div class="leo-row">
+        <div class="leo-form-group leo-col-md-10">
+            <label>تا</label>
+            <input class="NfsCalendar hasCalendarsPicker leo-form-control " id="EDateOfEmployee" type="text" value="">
             <span class="icon-calendar  imgcalendar calendars-trigger"></span>
         </div>
-        <div class="searchbar floatdiv marginleftright10 ">
-            <span class="floatdiv  margin-top5 margin-lr5">پرسنلي</span>
-            <input id="NfsAutocompleteManagePersons" lang="fa" class="ui-autocomplete-input icon-comboperson input-bg" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
+        <div class="leo-form-group leo-col-md-10">
+            <label>پرسنلی</label>
+            <input id="NfsAutocompleteManagePersons" lang="fa" class="leo-form-control ui-autocomplete-input icon-comboperson input-bg" autocomplete="off" role="textbox" aria-autocomplete="list" aria-haspopup="true">
         </div>
         <div class=" searchbar floatdiv">
             <a id="ShowPageManagePersons" class="btn btn-primary-orange">
@@ -55,36 +53,93 @@
         <div class="clear"></div>
     </div>
 
+    </div>
+
     <div id="toolbarmngprs" class="container-toolbar">
         <div class="toolbar" id="managePersonsNameSpaceMenu">
 
             <ul>
                 <li>
-                    <button class="btn btn-primary-blue" id="BtnCreatPerson">
-                        <i class="iconwhite-person-create generalicon floatdiv"></i>
-                        <span class="lbl margin-rl5 floatdivlr display-block">ايجاد</span>
+                    <button class="btn btn-primary-blue " id="BtnCreatPerson">
+                        <span class="claw-group-add"></span>
+                        ايجاد
                     </button>
                 </li>
                 <li>
-                    <button class="btn btn-primary-gray disabled" disabled="true" id="BtnEditPerson">
-                        <i class="icongray-person-edit generalicon floatdiv"></i><span class="lbl margin-rl5 floatdivlr display-block">ويرايش</span>
+                    <button class="btn btn-primary-orange" id="BtnCreatPerson">
+                        <span class="claw-group"></span>
+                        ايجاد
                     </button>
                 </li>
                 <li>
-                    <button class="btn btn-primary-gray disabled" disabled="true" id="BtnDeletePerson">
-                        <i class="icongray-person-delete generalicon floatdiv"></i>
-                        <span class="lbl margin-rl5 floatdivlr display-block">حذف</span>
+                    <button class="btn btn-primary-red" id="BtnDeletePerson">
+                        <span class="claw-group-add"></span>
+
+                        حذف
                     </button>
                 </li>
                 <li>
-                    <button class="btn btn-primary-gray disabled" disabled="true" id="BtnIsLocked">
-                        <i class="icongray-person-delete generalicon floatdiv"></i>
-                        <span class="lbl margin-rl5 floatdivlr display-block">فعال يا غيرفعال كردن كاربر</span>
+                    <button class="btn btn-primary-green" id="BtnIsLocked">
+                        <span class="claw-group-edit"></span>
+
+                        فعال یا غیر فعال
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary-gray" id="BtnCreatPerson">
+                        <span class="claw-group-edit-2"></span>
+                        ايجاد
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary-gray" id="BtnCreatPerson">
+                        <span class="claw-group-edit-3"></span>
+                        ايجاد
                     </button>
                 </li>
             </ul>
         </div>
     </div>
+
+
+
+    <div id="toolbarmngprs" class="container-toolbar">
+        <div class="toolbar" id="managePersonsNameSpaceMenu">
+
+            <ul>
+                <li>
+                    <button class="btn btn-primary-blue " id="BtnCreatPerson">
+                        <span class="claw-group-add"></span>
+                        ايجاد
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary-gray btn-xs" id="BtnCreatPerson">
+                        <span class="claw-black"></span>
+                        ايجاد
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary-gray btn-sm" id="BtnDeletePerson">
+                        <span class="claw-group-add"></span>
+
+                        حذف
+                    </button>
+                </li>
+                <li>
+                    <button class="btn btn-primary-gray btn-lg" id="BtnIsLocked">
+                        <span class="claw-group-edit-2"></span>
+
+                        فعال یا غیر فعال
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
 </div>
 </body>
 </html>
