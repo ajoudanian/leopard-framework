@@ -259,7 +259,7 @@ html {
 
 body {
   font-family: Goran, Tahoma, Arial, sans-serif;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.42857;
   color: #333333;
   background-color: #fff; }
@@ -315,8 +315,8 @@ img {
   border-radius: 50%; }
 
 hr {
-  margin-top: 27px;
-  margin-bottom: 27px;
+  margin-top: 22px;
+  margin-bottom: 22px;
   border: 0;
   border-top: 1px solid #eeeeee; }
 
@@ -1324,7 +1324,7 @@ hr {
 
 .btn.btn-xs [class^="claw-"], .btn.btn-xs [class*=" claw-"] {
   margin-right: 3px;
-  font-size: 18px; }
+  font-size: 14.4px; }
 
 .claw-group:before {
   content: ""; }
@@ -1366,8 +1366,8 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 27px;
-  font-size: 28.5px;
+  margin-bottom: 22px;
+  font-size: 24px;
   line-height: inherit;
   color: #333333;
   border: 0;
@@ -1411,16 +1411,16 @@ input[type="checkbox"]:focus {
 output {
   display: block;
   padding-top: 6px;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.42857;
   color: #3c3c3c; }
 
 .leo-form-control {
   display: block;
   width: 100%;
-  height: 39px;
+  height: 34px;
   padding: 5px 8px;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.42857;
   color: #3c3c3c;
   background-color: #ffffff;
@@ -1461,7 +1461,7 @@ input[type="search"] {
   input[type="time"].leo-form-control,
   input[type="datetime-local"].leo-form-control,
   input[type="month"].leo-form-control {
-    line-height: 39px; }
+    line-height: 34px; }
   input[type="date"].leo-input-sm,
   .leo-input-group-sm input[type="date"],
   input[type="time"].leo-input-sm,
@@ -1470,7 +1470,7 @@ input[type="search"] {
   .leo-input-group-sm input[type="datetime-local"],
   input[type="month"].leo-input-sm,
   .leo-input-group-sm input[type="month"] {
-    line-height: 29px; }
+    line-height: 24px; }
   input[type="date"].leo-input-lg,
   .leo-input-group-lg input[type="date"],
   input[type="time"].leo-input-lg,
@@ -1479,7 +1479,7 @@ input[type="search"] {
   .leo-input-group-lg input[type="datetime-local"],
   input[type="month"].leo-input-lg,
   .leo-input-group-lg input[type="month"] {
-    line-height: 50px; } }
+    line-height: 45px; } }
 
 .leo-form-group {
   margin-bottom: 5px; }
@@ -1494,7 +1494,7 @@ input[type="search"] {
   margin-bottom: 10px; }
   .leo-radio label,
   .leo-checkbox label {
-    min-height: 27px;
+    min-height: 22px;
     padding-left: 20px;
     margin-bottom: 0;
     font-weight: normal;
@@ -1551,90 +1551,90 @@ fieldset[disabled] .leo-checkbox label {
   padding-top: 6px;
   padding-bottom: 6px;
   margin-bottom: 0;
-  min-height: 46px; }
+  min-height: 38px; }
   .leo-form-control-static.leo-input-lg,
   .leo-form-control-static.leo-input-sm {
     padding-left: 0;
     padding-right: 0; }
 
 .input-sm {
-  height: 29px;
+  height: 24px;
   padding: 3px 5px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;
   border-radius: 3px; }
 
 select.input-sm {
-  height: 29px;
-  line-height: 29px; }
+  height: 24px;
+  line-height: 24px; }
 
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto; }
 
 .leo-form-group-sm .leo-form-control {
-  height: 29px;
+  height: 24px;
   padding: 3px 5px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;
   border-radius: 3px; }
 
 .leo-form-group-sm select.leo-form-control {
-  height: 29px;
-  line-height: 29px; }
+  height: 24px;
+  line-height: 24px; }
 
 .leo-form-group-sm textarea.leo-form-control,
 .leo-form-group-sm select[multiple].form-control {
   height: auto; }
 
 .leo-form-group-sm .leo-form-control-static {
-  height: 29px;
-  min-height: 42px;
+  height: 24px;
+  min-height: 34px;
   padding: 4px 5px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4; }
 
 .input-lg {
-  height: 50px;
+  height: 45px;
   padding: 8px 10px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.33333;
   border-radius: 6px; }
 
 select.input-lg {
-  height: 50px;
-  line-height: 50px; }
+  height: 45px;
+  line-height: 45px; }
 
 textarea.input-lg,
 select[multiple].input-lg {
   height: auto; }
 
 .leo-form-group-lg .leo-form-control {
-  height: 50px;
+  height: 45px;
   padding: 8px 10px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.33333;
   border-radius: 6px; }
 
 .leo-form-group-lg select.leo-form-control {
-  height: 50px;
-  line-height: 50px; }
+  height: 45px;
+  line-height: 45px; }
 
 .leo-form-group-lg textarea.leo-form-control,
 .leo-form-group-lg select[multiple].leo-form-control {
   height: auto; }
 
 .leo-form-group-lg .leo-form-control-static {
-  height: 50px;
-  min-height: 51px;
+  height: 45px;
+  min-height: 42px;
   padding: 9px 10px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.33333; }
 
 .leo-has-feedback {
   position: relative; }
   .leo-has-feedback .leo-form-control {
-    padding-right: 48.75px; }
+    padding-right: 42.5px; }
 
 .leo-form-control-feedback {
   position: absolute;
@@ -1642,25 +1642,25 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 39px;
-  height: 39px;
-  line-height: 39px;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
   text-align: center;
   pointer-events: none; }
 
 .leo-input-lg + .leo-form-control-feedback,
 .leo-input-group-lg + .leo-form-control-feedback,
 .leo-form-group-lg .leo-form-control + .leo-form-control-feedback {
-  width: 50px;
-  height: 50px;
-  line-height: 50px; }
+  width: 45px;
+  height: 45px;
+  line-height: 45px; }
 
 .leo-input-sm + .leo-form-control-feedback,
 .leo-input-group-sm + .leo-form-control-feedback,
 .leo-form-group-sm .leo-form-control + .leo-form-control-feedback {
-  width: 29px;
-  height: 29px;
-  line-height: 29px; }
+  width: 24px;
+  height: 24px;
+  line-height: 24px; }
 
 .leo-has-success .help-block,
 .leo-has-success .control-label,
@@ -1750,7 +1750,7 @@ select[multiple].input-lg {
   color: #a94442; }
 
 .leo-has-feedback label ~ .leo-form-control-feedback {
-  top: 32px; }
+  top: 27px; }
 
 .leo-has-feedback label.sr-only ~ .form-control-feedback {
   top: 0; }
@@ -1810,7 +1810,7 @@ select[multiple].input-lg {
 
 .leo-form-horizontal .leo-radio,
 .leo-form-horizontal .leo-checkbox {
-  min-height: 33px; }
+  min-height: 28px; }
 
 .leo-form-horizontal .leo-form-group {
   margin-left: -5px;
@@ -1834,12 +1834,12 @@ select[multiple].input-lg {
 @media (min-width: 768px) {
   .leo-form-horizontal .leo-form-group-lg .leo-control-label {
     padding-top: 11.66667px;
-    font-size: 24px; } }
+    font-size: 20px; } }
 
 @media (min-width: 768px) {
   .leo-form-horizontal .leo-form-group-sm .leo-control-label {
     padding-top: 4px;
-    font-size: 15px; } }
+    font-size: 12px; } }
 
 legend {
   width: auto;
@@ -1863,7 +1863,7 @@ legend {
   white-space: nowrap;
   touch-action: manipulation;
   padding: 5px 8px;
-  font-size: 19px;
+  font-size: 16px;
   line-height: 1.42857;
   border-radius: 4px;
   -webkit-user-select: none;
@@ -2288,19 +2288,19 @@ fieldset[disabled] a.btn {
 
 .btn-lg {
   padding: 8px 10px;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 1.33333;
   border-radius: 6px; }
 
 .btn-sm {
   padding: 3px 5px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;
   border-radius: 3px; }
 
 .btn-xs {
   padding: 1px 1px;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;
   border-radius: 3px; }
 
