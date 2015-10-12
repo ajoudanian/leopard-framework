@@ -14,7 +14,7 @@ figcaption,
 figure,
 footer,
 header,
-hgroup,
+/*hgroup,*/
 nav,
 section {
   display: block; }
@@ -1786,7 +1786,7 @@ table th[class*="span"],
   *margin-left: .3em;
   line-height: 14px;
   vertical-align: text-top;
-  background-image: url(image-path("glyphicons-halflings.png"));
+  /*background-image: url(image-path("glyphicons-halflings.png"));*/
   background-position: 14px 14px;
   background-repeat: no-repeat;
   margin-top: 1px; }
@@ -1809,7 +1809,8 @@ table th[class*="span"],
 .dropdown-submenu:focus > a > [class^="icon-"],
 .dropdown-submenu:hover > a > [class*=" icon-"],
 .dropdown-submenu:focus > a > [class*=" icon-"] {
-  background-image: url(image-path("glyphicons-halflings-white.png")); }
+    /*background-image: url(image-path("glyphicons-halflings-white.png")); }*/
+}
 
 .icon-glass {
   background-position: 100%      0; }

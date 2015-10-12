@@ -2556,6 +2556,12 @@ input[type="button"].btn-block {
       margin: 0;
       margin-left: 3px; }
 
+.container-searchbar {
+  border: 1px solid gainsboro;
+  background-color: #f5f5f5;
+  margin-top: 5px;
+  margin-bottom: 3px; }
+
 .NfsCalendar {
   position: relative; }
   .NfsCalendar .imgcalendar {
