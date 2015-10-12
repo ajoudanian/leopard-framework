@@ -1,17 +1,17 @@
 @font-face {
-  font-family: 'WRoya';
-  src: url('../fonts/RoyaWeb-Regular.woff') format('woff');
+  font-family: 'Lato';
+  src: url('../fonts/en/Lato-Regular.eot');
+  src: url("../fonts/en/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/en/Lato-Regular.woff") format("woff"), url("../fonts/en/Lato-Regular.ttf") format("truetype"), url('../fonts/en/Lato-Regular.svg#wroya') format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
-  font-family: 'WRoya';
-  src: url('../fonts/RoyaWeb-Bold.woff') format('woff');
+  font-family: 'Lato';
+  src: url('../fonts/en/Lato-Bold.eot');
+  src: url("../fonts/en/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/en/Lato-Bold.woff") format("woff"), url("../fonts/en/Lato-Bold.ttf") format("truetype"), url('../fonts/en/Lato-Bold.svg#wroya') format("svg");
   font-weight: bold;
   font-style: normal;
-
 }
 
 
@@ -20,14 +20,14 @@
 //}
 
 
-$font-family-sans-serif:  Tahoma , Tahoma , Arial, sans-serif;
-$font-family-serif:       Tahoma , "Times New Roman", Times, serif;
-$font-family-monospace:   Tahoma ,Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-sans-serif:  Lato , Tahoma , Arial, sans-serif;
+$font-family-serif:       Lato , "Times New Roman", Times, serif;
+$font-family-monospace:   Lato ,Menlo, Monaco, Consolas, "Courier New", monospace !default;
 
-$font-size-base: 14px;
+$font-size-base: 15px;
+
 
 
 @import '../../assets/stylesheets/variables';
-@import '../../assets/stylesheets/leopard/clawicon';
 @import '../../assets/stylesheets/_leopard';
 
