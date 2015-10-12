@@ -1,3 +1,8 @@
+$claw-reload: "\e80a";
+$claw-down: "\e80b";
+$claw-left: "\e80c";
+$claw-right: "\e80d";
+$claw-up: "\e80e";
 $claw-plus: "\e809";
 $claw-preview: "\e808";
 $claw-group-preview: "\e807";
@@ -8,6 +13,7 @@ $claw-search: "\e805";
 $claw-menu: "\e801";
 $claw-group-edit: "\e804";
 $claw-group: "\e800";
+
 
 
 
@@ -58,14 +64,48 @@ $claw-group: "\e800";
   //line-height: 22px;
 
 
-
-  .claw-group                           { &:before { content: $claw-group; } }
-  .claw-group-add                       { &:before { content: $claw-group-add; } }
-  .claw-group-edit                      { &:before { content: $claw-group-edit; } }
-  .claw-group-remove                    { &:before { content: $claw-group-remove; } }
-  .claw-group-preview                   { &:before { content: $claw-group-preview; } }
-  .claw-group-gear                      { &:before { content: $claw-group-gear; } }
-  .claw-search                          { &:before { content: $claw-search; } }
-  .claw-menu                            { &:before { content: $claw-menu; } }
-  .claw-plus                            { &:before { content: $claw-plus; } }
-  .claw-preview                         { &:before { content: $claw-preview; } }
+.claw-reload:before {
+  content: "\e80a";
+}
+.claw-down:before {
+  content: "\e80b";
+}
+.claw-left:before {
+  content: "\e80c";
+}
+.claw-right:before {
+  content: "\e80d";
+}
+.claw-up:before {
+  content: "\e80e";
+}
+.claw-plus:before {
+  content: "\e809";
+}
+.claw-preview:before {
+  content: "\e808";
+}
+.claw-group-preview:before {
+  content: "\e807";
+}
+.claw-group-gear:before {
+  content: "\e806";
+}
+.claw-group-add:before {
+  content: "\e802";
+}
+.claw-group-remove:before {
+  content: "\e803";
+}
+.claw-search:before {
+  content: "\e805";
+}
+.claw-menu:before {
+  content: "\e801";
+}
+.claw-group-edit:before {
+  content: "\e804";
+}
+.claw-group:before {
+  content: "\e800";
+}

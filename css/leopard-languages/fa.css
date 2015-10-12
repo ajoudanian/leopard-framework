@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: 'WRoya';
   src: url("../fonts/fa/RoyaWeb-Regular.eot");
@@ -1333,35 +1332,50 @@ hr {
   margin-right: 3px;
   font-size: 18px; }
 
-.claw-group:before {
-  content: ""; }
+.claw-reload:before {
+  content: "\e80a"; }
 
-.claw-group-add:before {
-  content: ""; }
+.claw-down:before {
+  content: "\e80b"; }
 
-.claw-group-edit:before {
-  content: ""; }
+.claw-left:before {
+  content: "\e80c"; }
 
-.claw-group-remove:before {
-  content: ""; }
+.claw-right:before {
+  content: "\e80d"; }
 
-.claw-group-preview:before {
-  content: ""; }
-
-.claw-group-gear:before {
-  content: ""; }
-
-.claw-search:before {
-  content: ""; }
-
-.claw-menu:before {
-  content: ""; }
+.claw-up:before {
+  content: "\e80e"; }
 
 .claw-plus:before {
-  content: ""; }
+  content: "\e809"; }
 
 .claw-preview:before {
-  content: ""; }
+  content: "\e808"; }
+
+.claw-group-preview:before {
+  content: "\e807"; }
+
+.claw-group-gear:before {
+  content: "\e806"; }
+
+.claw-group-add:before {
+  content: "\e802"; }
+
+.claw-group-remove:before {
+  content: "\e803"; }
+
+.claw-search:before {
+  content: "\e805"; }
+
+.claw-menu:before {
+  content: "\e801"; }
+
+.claw-group-edit:before {
+  content: "\e804"; }
+
+.claw-group:before {
+  content: "\e800"; }
 
 fieldset {
   padding: 0;
