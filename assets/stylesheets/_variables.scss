@@ -173,6 +173,12 @@ $btn-danger-color:               #fff !default;
 $btn-danger-bg:                  $brand-danger !default;
 $btn-danger-border:              darken($btn-danger-bg, 5%) !default;
 
+
+$btn-fav-color:                  #2f61b8 !default;
+$btn-fav-bg:                     #eeeeee !default;
+$btn-fav-border:                 darken($btn-fav-bg, 10%) !default;
+
+
 $btn-link-disabled-color:        $gray-light !default;
 
 // Allows for customizing button radius independently from global border radius

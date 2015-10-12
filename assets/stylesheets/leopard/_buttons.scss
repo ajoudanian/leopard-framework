@@ -93,6 +93,10 @@ a.btn {
   @include button-variant($btn-danger-color, $btn-danger-bg, $btn-danger-border);
 }
 
+.btn-fav {
+  @include button-variant($btn-fav-color, $btn-fav-bg, $btn-fav-border);
+}
+
 
 // Link buttons
 // -------------------------
@@ -172,11 +176,17 @@ input[type="button"] {
   }
 }
 
-.btn-inline
+.btn-inline-sm
 {
   @media (min-width: 992px)
   {
     margin-top: calc(3px + #{$line-height-base}em);
   }
-
+}
+.btn-inline-xs
+{
+  @media (min-width: 768px)
+  {
+    margin-top: calc(3px + #{$line-height-base}em);
+  }
 }

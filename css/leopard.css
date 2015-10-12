@@ -2185,6 +2185,65 @@ fieldset[disabled] a.btn {
     color: #c9302c;
     background-color: #fff; }
 
+.btn-fav {
+  color: #2f61b8;
+  background-color: #eeeeee;
+  border-color: #d4d4d4; }
+  .btn-fav:focus,
+  .btn-fav.focus {
+    color: #2f61b8;
+    background-color: #d4d4d4;
+    border-color: #959595; }
+  .btn-fav:hover {
+    color: #2f61b8;
+    background-color: #d4d4d4;
+    border-color: #b6b6b6; }
+  .btn-fav:active,
+  .btn-fav.active,
+  .open > .btn-fav.dropdown-toggle {
+    color: #2f61b8;
+    background-color: #d4d4d4;
+    border-color: #b6b6b6; }
+    .btn-fav:active:hover,
+    .btn-fav:active:focus,
+    .btn-fav:active.focus,
+    .btn-fav.active:hover,
+    .btn-fav.active:focus,
+    .btn-fav.active.focus,
+    .open > .btn-fav.dropdown-toggle:hover,
+    .open > .btn-fav.dropdown-toggle:focus,
+    .open > .btn-fav.dropdown-toggle.focus {
+      color: #2f61b8;
+      background-color: #c3c3c3;
+      border-color: #959595; }
+  .btn-fav:active,
+  .btn-fav.active,
+  .open > .btn-fav.dropdown-toggle {
+    background-image: none; }
+  .btn-fav.disabled,
+  .btn-fav.disabled:hover,
+  .btn-fav.disabled:focus,
+  .btn-fav.disabled.focus,
+  .btn-fav.disabled:active,
+  .btn-fav.disabled.active,
+  .btn-fav[disabled],
+  .btn-fav[disabled]:hover,
+  .btn-fav[disabled]:focus,
+  .btn-fav[disabled].focus,
+  .btn-fav[disabled]:active,
+  .btn-fav[disabled].active,
+  fieldset[disabled] .btn-fav,
+  fieldset[disabled] .btn-fav:hover,
+  fieldset[disabled] .btn-fav:focus,
+  fieldset[disabled] .btn-fav.focus,
+  fieldset[disabled] .btn-fav:active,
+  fieldset[disabled] .btn-fav.active {
+    background-color: #eeeeee;
+    border-color: #d4d4d4; }
+  .btn-fav .badge {
+    color: #eeeeee;
+    background-color: #2f61b8; }
+
 .btn-link {
   color: #337ab7;
   font-weight: normal;
@@ -2245,7 +2304,11 @@ input[type="button"].btn-block {
   width: 100%; }
 
 @media (min-width: 992px) {
-  .btn-inline {
+  .btn-inline-sm {
+    margin-top: calc(3px + 1.42857em); } }
+
+@media (min-width: 768px) {
+  .btn-inline-xs {
     margin-top: calc(3px + 1.42857em); } }
 
 .leo-clearfix:before,
