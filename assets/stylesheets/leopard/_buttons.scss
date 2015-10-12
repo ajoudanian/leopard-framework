@@ -171,3 +171,12 @@ input[type="button"] {
     width: 100%;
   }
 }
+
+.btn-inline
+{
+  @media (min-width: 992px)
+  {
+    margin-top: calc(3px + #{$line-height-base}em);
+  }
+
+}

@@ -1428,7 +1428,7 @@ legend {
 label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
   font-weight: normal; }
 
 input[type="search"] {
@@ -2308,6 +2308,10 @@ input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%; }
+
+@media (min-width: 992px) {
+  .btn-inline {
+    margin-top: calc(3px + 1.42857em); } }
 
 .leo-clearfix:before,
 .leo-clearfix:after {
