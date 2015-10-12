@@ -34,7 +34,11 @@
 .btn [class^="claw-"], .btn [class*=" claw-"] {
   float: left;
   margin-right: 7px;
-  font-size: 1.35em; }
+  font-size: 1.3em; }
+
+.btn.btn-xs [class^="claw-"], .btn.btn-xs [class*=" claw-"] {
+  margin-right: 3px;
+  font-size: 13.2px; }
 
 .claw-group-edit:before {
   content: "\e801"; }
@@ -1351,6 +1355,59 @@ hr {
   .leo-col-lg-offset-24 {
     margin-left: 100%; } }
 
+@font-face {
+  font-family: 'clawicon';
+  src: url("../fonts/clawicon/clawicon.eot?auxrcf");
+  src: url("../fonts/clawicon/clawicon.eot?auxrcf#iefix") format("embedded-opentype"), url("../fonts/clawicon/clawicon.ttf?auxrcf") format("truetype"), url("../fonts/clawicon/clawicon.woff?auxrcf") format("woff"), url("../fonts/clawicon/clawicon.svg?auxrcf#clawicon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="claw-"], [class*=" claw-"] {
+  position: relative;
+  display: inline-block;
+  font-family: 'clawicon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  top: 1px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.btn [class^="claw-"], .btn [class*=" claw-"] {
+  float: left;
+  margin-right: 7px;
+  font-size: 1.3em; }
+
+.btn.btn-xs [class^="claw-"], .btn.btn-xs [class*=" claw-"] {
+  margin-right: 3px;
+  font-size: 13.2px; }
+
+.claw-group-edit:before {
+  content: "\e801"; }
+
+.claw-group:before {
+  content: "\e800"; }
+
+.claw-group-add:before {
+  content: "\e803"; }
+
+.claw-group:before {
+  content: ""; }
+
+.claw-group-add:before {
+  content: ""; }
+
+.claw-group-edit:before {
+  content: ""; }
+
+.claw-group-edit-2:before {
+  content: ""; }
+
+.claw-group-edit-3:before {
+  content: ""; }
+
 fieldset {
   padding: 0;
   margin: 0;
@@ -1412,13 +1469,13 @@ output {
 
 .leo-form-control {
   display: block;
-  width: 100% !important;
+  width: 100%;
   height: 32px;
   padding: 5px 8px;
   font-size: 14px;
   line-height: 1.42857;
   color: #3c3c3c;
-  background-color: #f6f6f6;
+  background-color: #ffffff;
   background-image: none;
   border: 1px solid #d2d2d2;
   border-radius: 4px;
@@ -1428,7 +1485,7 @@ output {
   .leo-form-control:focus {
     border-color: #10a58a;
     outline: 0;
-    background-color: #fbfbfb; }
+    background-color: white; }
   .leo-form-control::-moz-placeholder {
     color: #999;
     opacity: 1; }
@@ -1439,7 +1496,7 @@ output {
   .leo-form-control[disabled],
   .leo-form-control[readonly],
   fieldset[disabled] .leo-form-control {
-    background-color: #dddddd;
+    background-color: #e6e6e6;
     opacity: 1; }
   .leo-form-control[disabled],
   fieldset[disabled] .leo-form-control {
@@ -1465,7 +1522,7 @@ input[type="search"] {
   .leo-input-group-sm input[type="datetime-local"],
   input[type="month"].leo-input-sm,
   .leo-input-group-sm input[type="month"] {
-    line-height: 26px; }
+    line-height: 23px; }
   input[type="date"].leo-input-lg,
   .leo-input-group-lg input[type="date"],
   input[type="time"].leo-input-lg,
@@ -1553,41 +1610,41 @@ fieldset[disabled] .leo-checkbox label {
     padding-right: 0; }
 
 .input-sm {
-  height: 26px;
+  height: 23px;
   padding: 3px 5px;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 11px;
+  line-height: 1.4;
   border-radius: 3px; }
 
 select.input-sm {
-  height: 26px;
-  line-height: 26px; }
+  height: 23px;
+  line-height: 23px; }
 
 textarea.input-sm,
 select[multiple].input-sm {
   height: auto; }
 
 .leo-form-group-sm .leo-form-control {
-  height: 26px;
+  height: 23px;
   padding: 3px 5px;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 11px;
+  line-height: 1.4;
   border-radius: 3px; }
 
 .leo-form-group-sm select.leo-form-control {
-  height: 26px;
-  line-height: 26px; }
+  height: 23px;
+  line-height: 23px; }
 
 .leo-form-group-sm textarea.leo-form-control,
 .leo-form-group-sm select[multiple].form-control {
   height: auto; }
 
 .leo-form-group-sm .leo-form-control-static {
-  height: 26px;
-  min-height: 32px;
+  height: 23px;
+  min-height: 31px;
   padding: 4px 5px;
-  font-size: 12px;
-  line-height: 1.5; }
+  font-size: 11px;
+  line-height: 1.4; }
 
 .input-lg {
   height: 42px;
@@ -1653,9 +1710,9 @@ select[multiple].input-lg {
 .leo-input-sm + .leo-form-control-feedback,
 .leo-input-group-sm + .leo-form-control-feedback,
 .leo-form-group-sm .leo-form-control + .leo-form-control-feedback {
-  width: 26px;
-  height: 26px;
-  line-height: 26px; }
+  width: 23px;
+  height: 23px;
+  line-height: 23px; }
 
 .leo-has-success .help-block,
 .leo-has-success .control-label,
@@ -1834,7 +1891,7 @@ select[multiple].input-lg {
 @media (min-width: 768px) {
   .leo-form-horizontal .leo-form-group-sm .leo-control-label {
     padding-top: 4px;
-    font-size: 12px; } }
+    font-size: 11px; } }
 
 legend {
   width: auto;
@@ -2230,14 +2287,14 @@ fieldset[disabled] a.btn {
 
 .btn-sm {
   padding: 3px 5px;
-  font-size: 12px;
-  line-height: 1.5;
+  font-size: 11px;
+  line-height: 1.4;
   border-radius: 3px; }
 
 .btn-xs {
-  padding: 1px 1 px;
-  font-size: 12px;
-  line-height: 1.5;
+  padding: 1px 1px;
+  font-size: 11px;
+  line-height: 1.4;
   border-radius: 3px; }
 
 .btn-block {

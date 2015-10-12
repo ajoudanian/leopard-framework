@@ -30,31 +30,41 @@ $claw-group-add: "\e803";
   -moz-osx-font-smoothing: grayscale;
 }
 
-.btn [class^="claw-"], .btn [class*=" claw-"] {
-  float: left;
-  margin-right: 7px;
-  font-size: 1.35em;
+.btn
+{
+  [class^="claw-"],[class*=" claw-"] {
+    float: left;
+    margin-right: 7px;
+    font-size: 1.3em;
+  }
+  &.btn-xs
+  {
+    [class^="claw-"],[class*=" claw-"] {
+      margin-right: 3px;
+      font-size: ($font-size-small * 1.2);
+    }
+  }
 }
 
 
-//line-height: 22px;
+  //line-height: 22px;
 
 
 
-.claw-group-edit:before {
-  content: "\e801";
-}
-.claw-group:before {
-  content: "\e800";
-}
-.claw-group-add:before {
-  content: "\e803";
-}
+  .claw-group-edit:before {
+    content: "\e801";
+  }
+  .claw-group:before {
+    content: "\e800";
+  }
+  .claw-group-add:before {
+    content: "\e803";
+  }
 
 
 
-.claw-group                           { &:before { content: $claw-group; } }
-.claw-group-add                       { &:before { content: $claw-group-add; } }
-.claw-group-edit                      { &:before { content: $claw-group-edit; } }
-.claw-group-edit-2                    { &:before { content: $claw-group-edit-2; } }
-.claw-group-edit-3                    { &:before { content: $claw-group-edit-3; } }
+  .claw-group                           { &:before { content: $claw-group; } }
+  .claw-group-add                       { &:before { content: $claw-group-add; } }
+  .claw-group-edit                      { &:before { content: $claw-group-edit; } }
+  .claw-group-edit-2                    { &:before { content: $claw-group-edit-2; } }
+  .claw-group-edit-3                    { &:before { content: $claw-group-edit-3; } }

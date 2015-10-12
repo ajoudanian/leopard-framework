@@ -51,7 +51,7 @@ $font-family-base:        $font-family-sans-serif !default;
 
 $font-size-base:          14px !default;
 $font-size-large:         ceil(($font-size-base * 1.25)) !default; // ~18px
-$font-size-small:         ceil(($font-size-base * 0.85)) !default; // ~12px
+$font-size-small:         ceil(($font-size-base * 0.75)) !default; // ~12px
 
 $font-size-h1:            floor(($font-size-base * 2.6)) !default; // ~36px
 $font-size-h2:            floor(($font-size-base * 2.15)) !default; // ~30px
@@ -102,10 +102,10 @@ $padding-small-vertical:    3px !default;
 $padding-small-horizontal:  5px !default;
 
 $padding-xs-vertical:       1px !default;
-$padding-xs-horizontal:     1 px !default;
+$padding-xs-horizontal:     1px !default;
 
 $line-height-large:         1.3333333 !default; // extra decimals for Win 8.1 Chrome
-$line-height-small:         1.5 !default;
+$line-height-small:         1.4 !default;
 
 $border-radius-base:        4px !default;
 $border-radius-large:       6px !default;
@@ -186,7 +186,7 @@ $btn-border-radius-small:        $border-radius-small !default;
 //##
 
 //** `<input>` background color
-$input-bg:                       #f6f6f6 !default;
+$input-bg:                       #ffffff !default;
 //** `<input disabled>` background color
 $input-bg-disabled:              darken($input-bg,10%) !default;
 

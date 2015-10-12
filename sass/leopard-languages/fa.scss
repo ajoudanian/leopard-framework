@@ -1,24 +1,19 @@
+
 @font-face {
   font-family: 'WRoya';
-  src: url('../fonts/fa/RoyaWeb-Regular.woff') format('woff');
+  src: url('../fonts/fa/RoyaWeb-Regular.eot');
+  src: url("../fonts/fa/RoyaWeb-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/fa/RoyaWeb-Regular.woff") format("woff"), url("../fonts/fa/RoyaWeb-Regular.ttf") format("truetype"), url('../fonts/fa/RoyaWeb-Regular.svg#wroya') format("svg");
   font-weight: normal;
   font-style: normal;
-
 }
 
 @font-face {
   font-family: 'WRoya';
-  src: url('../fonts/fa/RoyaWeb-Bold.woff') format('woff');
+  src: url('../fonts/fa/RoyaWeb-Bold.eot');
+  src: url("../fonts/fa/RoyaWeb-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/fa/RoyaWeb-Bold.woff") format("woff"), url("../fonts/fa/RoyaWeb-Bold.ttf") format("truetype"), url('../fonts/fa/RoyaWeb-Bold.svg#wroya') format("svg");
   font-weight: bold;
   font-style: normal;
-
 }
-
-
-//body {
-//  font-family: WRoya,tahoma;
-//}
-
 
 $font-family-sans-serif:  WRoya , Tahoma , Arial, sans-serif;
 $font-family-serif:       WRoya , "Times New Roman", Times, serif;
@@ -28,7 +23,6 @@ $font-size-base: 19px;
 
 
 @import '../../assets/stylesheets/variables';
-@import '../../assets/stylesheets/_clawicon';
 @import '../../assets/stylesheets/_leopard';
 @import '../../assets/stylesheets/_leopard-rtl';
 

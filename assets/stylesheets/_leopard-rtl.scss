@@ -7,16 +7,16 @@
 // Core variables and mixins
 //@import "leopard-rtl/variables";
 
-@import "leopard-rtl/clawicon";
 
 @import "leopard-rtl/mixins";
-
 
 // Reset and dependencies
 @import "leopard-rtl/normalize";
 
+
 // Core CSS
 @import "leopard-rtl/grid";
+@import "leopard-rtl/clawicon";
 
 // Utility classes
 @import "leopard-rtl/utilities";
