@@ -1326,29 +1326,35 @@ hr {
   margin-right: 3px;
   font-size: 18px; }
 
-.claw-group-edit:before {
-  content: "\e801"; }
-
-.claw-group:before {
-  content: "\e800"; }
-
-.claw-group-add:before {
-  content: "\e803"; }
-
 .claw-group:before {
   content: ""; }
 
 .claw-group-add:before {
-  content: ""; }
-
-.claw-group-edit:before {
-  content: ""; }
-
-.claw-group-edit-2:before {
   content: ""; }
 
-.claw-group-edit-3:before {
+.claw-group-edit:before {
   content: ""; }
+
+.claw-group-remove:before {
+  content: ""; }
+
+.claw-group-preview:before {
+  content: ""; }
+
+.claw-group-gear:before {
+  content: ""; }
+
+.claw-search:before {
+  content: ""; }
+
+.claw-menu:before {
+  content: ""; }
+
+.claw-plus:before {
+  content: ""; }
+
+.claw-preview:before {
+  content: ""; }
 
 fieldset {
   padding: 0;

@@ -1,8 +1,16 @@
-$claw-group-edit: "\e801";
-$claw-group-edit-2: "\e802";
-$claw-group-edit-3: "\e804";
+$claw-plus: "\e809";
+$claw-preview: "\e808";
+$claw-group-preview: "\e807";
+$claw-group-gear: "\e806";
+$claw-group-add: "\e802";
+$claw-group-remove: "\e803";
+$claw-search: "\e805";
+$claw-menu: "\e801";
+$claw-group-edit: "\e804";
 $claw-group: "\e800";
-$claw-group-add: "\e803";
+
+
+
 
 
 @font-face {
@@ -51,20 +59,13 @@ $claw-group-add: "\e803";
 
 
 
-  .claw-group-edit:before {
-    content: "\e801";
-  }
-  .claw-group:before {
-    content: "\e800";
-  }
-  .claw-group-add:before {
-    content: "\e803";
-  }
-
-
-
   .claw-group                           { &:before { content: $claw-group; } }
   .claw-group-add                       { &:before { content: $claw-group-add; } }
   .claw-group-edit                      { &:before { content: $claw-group-edit; } }
-  .claw-group-edit-2                    { &:before { content: $claw-group-edit-2; } }
-  .claw-group-edit-3                    { &:before { content: $claw-group-edit-3; } }
+  .claw-group-remove                    { &:before { content: $claw-group-remove; } }
+  .claw-group-preview                   { &:before { content: $claw-group-preview; } }
+  .claw-group-gear                      { &:before { content: $claw-group-gear; } }
+  .claw-search                          { &:before { content: $claw-search; } }
+  .claw-menu                            { &:before { content: $claw-menu; } }
+  .claw-plus                            { &:before { content: $claw-plus; } }
+  .claw-preview                         { &:before { content: $claw-preview; } }
