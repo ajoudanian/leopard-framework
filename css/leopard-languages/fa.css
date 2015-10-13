@@ -348,6 +348,18 @@ hr {
 [role="button"] {
   cursor: pointer; }
 
+.display-inline {
+  display: inline; }
+
+.display-none {
+  display: none; }
+
+.display-inline-block {
+  display: inline-block; }
+
+.display-block {
+  display: block; }
+
 .leo-container {
   margin-right: auto;
   margin-left: auto;
@@ -2631,6 +2643,25 @@ input[type="button"].btn-block {
   box-shadow: 0 0px 3px rgba(0, 0, 0, 0.3);
   padding: 10px;
   padding-bottom: 2px; }
+
+.menuconfig {
+  background-color: #d6d6d6;
+  -ms-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px; }
+  .menuconfig
+.btn {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 0.9em;
+    color: #8b8b8b;
+    font-weight: bold;
+    margin-right: 20px; }
+  .menuconfig
+.title {
+    color: #8b8b8b;
+    font-weight: bold; }
 
 /*!
  * Leopard rtl v1.0.0
