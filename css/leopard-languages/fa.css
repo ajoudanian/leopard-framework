@@ -1913,6 +1913,7 @@ legend {
   text-decoration: none;
   white-space: nowrap;
   touch-action: manipulation;
+  transition: background-color 0.3s ease 0s, border-color 0.1s ease 0s;
   padding: 5px 8px;
   font-size: 19px;
   line-height: 1.42857;
@@ -2251,24 +2252,25 @@ fieldset[disabled] a.btn {
 
 .btn-fav {
   color: #2f61b8;
-  background-color: #eeeeee;
-  border-color: #d4d4d4;
-  text-align: left; }
+  background-color: #f5f5f5;
+  border-color: gainsboro;
+  text-align: left;
+  margin-bottom: 8px; }
   .btn-fav:focus,
   .btn-fav.focus {
     color: #2f61b8;
-    background-color: #d4d4d4;
-    border-color: #959595; }
+    background-color: gainsboro;
+    border-color: #9c9c9c; }
   .btn-fav:hover {
     color: #2f61b8;
-    background-color: #d4d4d4;
-    border-color: #b6b6b6; }
+    background-color: gainsboro;
+    border-color: #bdbdbd; }
   .btn-fav:active,
   .btn-fav.active,
   .open > .btn-fav.dropdown-toggle {
     color: #2f61b8;
-    background-color: #d4d4d4;
-    border-color: #b6b6b6; }
+    background-color: gainsboro;
+    border-color: #bdbdbd; }
     .btn-fav:active:hover,
     .btn-fav:active:focus,
     .btn-fav:active.focus,
@@ -2279,8 +2281,8 @@ fieldset[disabled] a.btn {
     .open > .btn-fav.dropdown-toggle:focus,
     .open > .btn-fav.dropdown-toggle.focus {
       color: #2f61b8;
-      background-color: #c3c3c3;
-      border-color: #959595; }
+      background-color: #cacaca;
+      border-color: #9c9c9c; }
   .btn-fav:active,
   .btn-fav.active,
   .open > .btn-fav.dropdown-toggle {
@@ -2303,10 +2305,10 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-fav.focus,
   fieldset[disabled] .btn-fav:active,
   fieldset[disabled] .btn-fav.active {
-    background-color: #eeeeee;
-    border-color: #d4d4d4; }
+    background-color: #f5f5f5;
+    border-color: gainsboro; }
   .btn-fav .badge {
-    color: #eeeeee;
+    color: #f5f5f5;
     background-color: #2f61b8; }
 
 .btn-link {
@@ -2624,6 +2626,11 @@ input[type="button"].btn-block {
     background-position: -1px -268px;
     width: 31px;
     height: 29px; }
+
+.leo-wrapper {
+  box-shadow: 0 0px 3px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  padding-bottom: 2px; }
 
 /*!
  * Leopard rtl v1.0.0
@@ -3630,6 +3637,9 @@ body {
 
 .btn.btn-xs [class^="claw-"], .btn.btn-xs [class*=" claw-"] {
   margin-left: 3px; }
+
+.btn-fav {
+  text-align: right; }
 
 .leo-pull-right {
   float: left !important; }

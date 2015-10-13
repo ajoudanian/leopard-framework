@@ -10,7 +10,7 @@ gulp.task('sass', function () {
         //.pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css'))
-        .pipe(notify("Leopard Framework: Sass Done!"));
+        .pipe(notify("Leopxard Framework: Sass Done!"));
 });
 
 gulp.task('copy', function () {

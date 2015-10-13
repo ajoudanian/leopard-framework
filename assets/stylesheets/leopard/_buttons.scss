@@ -23,6 +23,7 @@
   text-decoration: none;
   white-space: nowrap;
   touch-action: manipulation;
+  transition: background-color 0.3s ease 0s,border-color 0.1s ease 0s;
 
    // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
   @include button-size($padding-base-vertical, $padding-base-horizontal, $font-size-base, $line-height-base, $btn-border-radius-base);
@@ -96,6 +97,7 @@ a.btn {
 .btn-fav {
   @include button-variant($btn-fav-color, $btn-fav-bg, $btn-fav-border);
   text-align: left;
+  margin-bottom: 8px;
 }
 
 
