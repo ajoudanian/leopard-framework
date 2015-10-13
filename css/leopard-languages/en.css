@@ -1332,6 +1332,9 @@ hr {
   margin-right: 3px;
   font-size: 14.4px; }
 
+.claw-gear:before {
+  content: "\e818"; }
+
 .claw-close-inverse:before {
   content: "\e80f"; }
 
