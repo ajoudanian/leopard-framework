@@ -1318,6 +1318,12 @@ hr {
   margin-right: 3px;
   font-size: 13.2px; }
 
+.claw-close-inverse:before {
+  content: "\e80f"; }
+
+.claw-close:before {
+  content: "\e817"; }
+
 .claw-reload:before {
   content: "\e80a"; }
 
@@ -1332,6 +1338,27 @@ hr {
 
 .claw-up:before {
   content: "\e80e"; }
+
+.claw-user-add:before {
+  content: "\e810"; }
+
+.claw-user-edit:before {
+  content: "\e811"; }
+
+.claw-user-gear:before {
+  content: "\e812"; }
+
+.claw-user-preview:before {
+  content: "\e813"; }
+
+.claw-user-remove:before {
+  content: "\e814"; }
+
+.claw-user-template:before {
+  content: "\e815"; }
+
+.claw-user:before {
+  content: "\e816"; }
 
 .claw-plus:before {
   content: "\e809"; }

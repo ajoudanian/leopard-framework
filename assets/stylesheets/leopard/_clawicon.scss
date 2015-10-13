@@ -1,20 +1,5 @@
-$claw-reload: "\e80a";
-$claw-down: "\e80b";
-$claw-left: "\e80c";
-$claw-right: "\e80d";
-$claw-up: "\e80e";
-$claw-plus: "\e809";
-$claw-preview: "\e808";
-$claw-group-preview: "\e807";
-$claw-group-gear: "\e806";
-$claw-group-add: "\e802";
-$claw-group-remove: "\e803";
-$claw-search: "\e805";
-$claw-menu: "\e801";
-$claw-group-edit: "\e804";
-$claw-group: "\e800";
 
-
+@import "../../icomoon/variables";
 
 
 
@@ -64,6 +49,12 @@ $claw-group: "\e800";
   //line-height: 22px;
 
 
+.claw-close-inverse:before {
+  content: "\e80f";
+}
+.claw-close:before {
+  content: "\e817";
+}
 .claw-reload:before {
   content: "\e80a";
 }
@@ -78,6 +69,27 @@ $claw-group: "\e800";
 }
 .claw-up:before {
   content: "\e80e";
+}
+.claw-user-add:before {
+  content: "\e810";
+}
+.claw-user-edit:before {
+  content: "\e811";
+}
+.claw-user-gear:before {
+  content: "\e812";
+}
+.claw-user-preview:before {
+  content: "\e813";
+}
+.claw-user-remove:before {
+  content: "\e814";
+}
+.claw-user-template:before {
+  content: "\e815";
+}
+.claw-user:before {
+  content: "\e816";
 }
 .claw-plus:before {
   content: "\e809";
