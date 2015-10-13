@@ -2252,7 +2252,8 @@ fieldset[disabled] a.btn {
 .btn-fav {
   color: #2f61b8;
   background-color: #eeeeee;
-  border-color: #d4d4d4; }
+  border-color: #d4d4d4;
+  text-align: left; }
   .btn-fav:focus,
   .btn-fav.focus {
     color: #2f61b8;

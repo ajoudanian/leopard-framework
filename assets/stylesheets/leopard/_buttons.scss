@@ -95,6 +95,7 @@ a.btn {
 
 .btn-fav {
   @include button-variant($btn-fav-color, $btn-fav-bg, $btn-fav-border);
+  text-align: left;
 }
 
 
