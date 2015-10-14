@@ -8,3 +8,26 @@
     }
   }
 }
+
+
+.nfscalendar-wrapper {
+  .imgcalendar {
+    left: 2px;
+    right: auto;
+  }
+}
+
+
+.personcombo-wrapper
+{
+  .cg-resetButton {
+    right: auto;
+    left: 3px;
+    .ui-icon
+    {
+      &:before {
+        content: $claw-backspace-right;
+      }
+    }
+  }
+}

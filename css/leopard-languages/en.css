@@ -1367,6 +1367,12 @@ hr {
 .claw-close:before {
   content: "\e817"; }
 
+.claw-backspace-left:before {
+  content: "\e81d"; }
+
+.claw-backspace-right:before {
+  content: "\e81e"; }
+
 .claw-last-left:before {
   content: "\e81b"; }
 
@@ -2653,7 +2659,7 @@ input[type="button"].btn-block {
     position: relative; }
   .nfscalendar-wrapper .imgcalendar {
     position: absolute;
-    left: 2px;
+    right: 2px;
     top: 2px; }
   .nfscalendar-wrapper .icon-calendar {
     width: 33px;
@@ -2875,3 +2881,69 @@ input[type="button"].btn-block {
 .k-grid .k-grid-header-wrap, .k-grid
 .k-grid-footer-wrap {
   border: none; }
+
+.personcombo-wrapper {
+  position: relative; }
+  .personcombo-wrapper
+.ui-autocomplete-input {
+    text-indent: 30px; }
+    .personcombo-wrapper
+.ui-autocomplete-input.cg-loading {
+      background-position: 29px 10px; }
+  .personcombo-wrapper:before {
+    position: absolute;
+    display: inline-block;
+    font-family: 'clawicon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    top: 8px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: none;
+    text-indent: 0;
+    color: #a0c4e4;
+    font-size: 22px;
+    right: 7px;
+    content: ""; }
+  .personcombo-wrapper:focus:before {
+    color: #5094ce; }
+  .personcombo-wrapper
+.cg-resetButton {
+    position: absolute;
+    right: 3px;
+    top: 9px;
+    border: none;
+    background: #78acd9;
+    padding: 2px;
+    display: block;
+    height: 19px;
+    width: 19px; }
+    .personcombo-wrapper
+.cg-resetButton
+.ui-icon {
+      position: relative;
+      display: inline-block;
+      font-family: 'clawicon';
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      top: 2px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: none;
+      font-size: 12px;
+      text-indent: 0;
+      color: #fff;
+      right: 2px; }
+      .personcombo-wrapper
+.cg-resetButton
+.ui-icon:before {
+        content: ""; }
+
+.cg-autocomplete.cg-menu {
+  background: #ffffff; }

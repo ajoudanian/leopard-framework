@@ -46,8 +46,6 @@
 }
 
 
-  //line-height: 22px;
-
 .claw-gear:before {
   content: "\e818";
 }
@@ -62,6 +60,12 @@
 }
 .claw-close:before {
   content: "\e817";
+}
+.claw-backspace-left:before {
+  content: "\e81d";
+}
+.claw-backspace-right:before {
+  content: "\e81e";
 }
 .claw-last-left:before {
   content: "\e81b";
@@ -135,3 +139,4 @@
 .claw-group:before {
   content: "\e800";
 }
+

@@ -37,7 +37,7 @@
   }
   .imgcalendar {
     position: absolute;
-    left: 2px;
+    right: 2px;
     top: 2px;
   }
   .icon-calendar {
@@ -299,4 +299,83 @@
   {
     border: none;
   }
+}
+
+
+.personcombo-wrapper
+{
+  position: relative;
+
+  .ui-autocomplete-input
+  {
+    text-indent: 30px;
+    &.cg-loading {
+      background-position: 29px 10px;
+    }
+  }
+  &:before
+  {
+    position: absolute;
+    display: inline-block;
+    font-family: 'clawicon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    top: 8px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: none;
+    text-indent: 0;
+    color: lighten($brand-primary,30%);
+    font-size: 22px;
+    right: 7px;
+    content: $claw-user-sq;
+  }
+  &:focus:before
+  {
+    color: lighten($brand-primary,10%);
+  }
+
+  .cg-resetButton
+  {
+    position: absolute;
+    right: 3px;
+    top: 9px;
+    border: none;
+    background: lighten($brand-primary,20%);
+    padding: 2px;
+    display: block;
+    height: 19px;
+    width: 19px;
+    .ui-icon
+    {
+      position: relative;
+      display: inline-block;
+      font-family: 'clawicon';
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 1;
+      top: 2px;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: none;
+      font-size: 12px;
+      text-indent: 0;
+      color: #fff;
+      right: 2px;
+      &:before {
+        content: $claw-backspace-left;
+      }
+    }
+  }
+}
+
+
+.cg-autocomplete.cg-menu
+{
+  background: #ffffff;
 }

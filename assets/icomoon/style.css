@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'clawicon';
-	src:url('fonts/clawicon.eot?kyc0eu');
-	src:url('fonts/clawicon.eot?kyc0eu#iefix') format('embedded-opentype'),
-		url('fonts/clawicon.ttf?kyc0eu') format('truetype'),
-		url('fonts/clawicon.woff?kyc0eu') format('woff'),
-		url('fonts/clawicon.svg?kyc0eu#clawicon') format('svg');
+	src:url('fonts/clawicon.eot?clgpe8');
+	src:url('fonts/clawicon.eot?clgpe8#iefix') format('embedded-opentype'),
+		url('fonts/clawicon.ttf?clgpe8') format('truetype'),
+		url('fonts/clawicon.woff?clgpe8') format('woff'),
+		url('fonts/clawicon.svg?clgpe8#clawicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -26,6 +26,9 @@
 .claw-gear:before {
 	content: "\e818";
 }
+.claw-user-sq:before {
+	content: "\e81f";
+}
 .claw-grid-filter-sq:before {
 	content: "\e81a";
 }
@@ -37,6 +40,12 @@
 }
 .claw-close:before {
 	content: "\e817";
+}
+.claw-backspace-left:before {
+	content: "\e81d";
+}
+.claw-backspace-right:before {
+	content: "\e81e";
 }
 .claw-last-left:before {
 	content: "\e81b";
