@@ -48,15 +48,9 @@
     border-radius: 3px;
     background-color: #ffffff;
     background-image: none;
-    display: inline-block;
-    font-family: 'clawicon';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
+    @include leo-icon-setting();
+    position: absolute;
     line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     &:hover
     {
       color: $brand-primary;
@@ -244,17 +238,9 @@
   .k-grid-header th.k-header .k-icon,
   .k-grid-pager .k-icon
   {
-    position: relative;
-    display: inline-block;
-    font-family: 'clawicon';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
+    @include leo-icon-setting();
     line-height: 1;
     top: 1px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     background-image: none;
     background-color: transparent;
     font-size: 16px;
@@ -315,17 +301,10 @@
   }
   &:before
   {
+    @include leo-icon-setting();
     position: absolute;
-    display: inline-block;
-    font-family: 'clawicon';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
     line-height: 1;
     top: 8px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     background: none;
     text-indent: 0;
     color: lighten($brand-primary,30%);
@@ -353,17 +332,9 @@
     .ui-icon
     {
 
-      position: relative;
-      display: inline-block;
-      font-family: 'clawicon';
-      font-style: normal;
-      font-weight: normal;
-      font-variant: normal;
-      text-transform: none;
+      @include leo-icon-setting();
       line-height: 1;
       top: -1px;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
       background: none;
       font-size: 16px;
       text-indent: 0;
@@ -382,3 +353,151 @@
 {
   background: #ffffff;
 }
+
+.maindiv
+{
+  background: $leopard_primary-color !important;
+  #tabs {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto;
+  }
+}
+
+.ui-tabs
+{
+  .ui-tabs-panel
+  {
+    box-shadow: 0 0 4px rgba(0,0,0,0.6);
+  }
+    .iconM-caret-right-bold,
+    .iconM-caret-left-bold,
+    .iconM-caret-bold
+    {
+      @include leo-icon-setting();
+      line-height: 1;
+      top: 3px;
+      color: #fff;
+      background: transparent;
+      &:before {
+        content: $claw-right;
+      }
+    }
+  .iconM-caret-right-bold:before {
+    content: $claw-right;
+  }
+  .iconM-caret-left-bold:before {
+    content: $claw-left;
+  }
+  .iconM-caret-bold:before {
+    content: $claw-down;
+  }
+
+
+
+  .ui-tabs-nav
+  {
+
+
+    li.ui-state-default.ui-corner-top
+    {
+      border-radius: 2px 2px 0 0 !important;
+      background: $leopard_secondary-color;
+      border-color: #54bdab !important;
+      a{
+        color: #ffffff;
+        font-size: 1.3em;
+        padding: 4px 13px;
+        }
+      .iconM-close-red-tab
+      {
+        @include leo-icon-setting();
+        line-height: 1;
+        top: 3px;
+        background: none;
+        font-size: 16px;
+        text-indent: 0;
+        color: rgba(255, 255, 255, 0.3);
+        right: 4px;
+        margin: 0 0px 0 5px;
+        &:hover
+        {
+          color: rgba(255, 255, 255, 0.8);
+        }
+        &:before {
+          content: $claw-close-inverse;
+        }
+      }
+      &.ui-tabs-active
+      {
+        a
+        {
+          color: #444444;
+        }
+        .iconM-close-red-tab
+        {
+          color: $brand-warning;
+        }
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+        border: none !important;
+      }
+    }
+
+  }
+  .ui-tabs-special-area
+  {
+    top: 0;
+    .ui-tabs-special-tab {
+      z-index: 100;
+      position: relative;
+      height: 34px;
+      overflow: hidden;
+      box-shadow: none;
+      border: none !important;
+      background: transparent !important;
+      a
+      {
+        height: 30px;
+        width: 30px;
+        display: block;
+        text-align: center;
+        box-shadow: none;
+        margin-right: 4px;
+        margin-top: 4px;
+        background: $leopard_secondary-color;
+        border-radius: 2px 2px 0 0;
+        border-color: #54bdab;
+        .iconM-plus-main
+        {
+          @include leo-icon-setting();
+          line-height: 1;
+          top: -1px;
+          background: none;
+          font-size: 18px;
+          text-indent: 0;
+          color: #ffffff;
+          right: 0px;
+          margin: 0 5px;
+
+          &:before {
+            content: $claw-gear;
+          }
+        }
+      }
+      &.ui-state-active
+      {
+        a
+        {
+          box-shadow: 0 0 4px #000;
+          background: #fff;
+          .iconM-plus-main {
+            color: $brand-warning;
+          }
+        }
+      }
+    }
+  }
+
+
+}
+

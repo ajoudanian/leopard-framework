@@ -15,7 +15,8 @@
   font-style: normal;
 }
 
-[class^="claw-"], [class*=" claw-"] {
+@mixin leo-icon-setting()
+{
   position: relative;
   display: inline-block;
   font-family: 'clawicon';
@@ -23,11 +24,18 @@
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
-  top: 1px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+
+[class^="claw-"], [class*=" claw-"] {
+  @include leo-icon-setting();
+  line-height: 1;
+  top: 1px;
+}
+
+
 
 .btn
 {

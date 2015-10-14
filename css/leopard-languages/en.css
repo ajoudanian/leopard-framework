@@ -1338,10 +1338,10 @@ hr {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
-  top: 1px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  top: 1px; }
 
 .btn [class^="claw-"], .btn [class*=" claw-"] {
   float: left;
@@ -2669,15 +2669,17 @@ input[type="button"].btn-block {
     border-radius: 3px;
     background-color: #ffffff;
     background-image: none;
+    position: relative;
     display: inline-block;
     font-family: 'clawicon';
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    line-height: 1;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    line-height: 1; }
     .nfscalendar-wrapper .icon-calendar:hover {
       color: #337ab7;
       border-color: #10a58a; }
@@ -2830,10 +2832,10 @@ input[type="button"].btn-block {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1;
-  top: 1px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  top: 1px;
   background-image: none;
   background-color: transparent;
   font-size: 16px;
@@ -2891,17 +2893,18 @@ input[type="button"].btn-block {
 .ui-autocomplete-input.cg-loading {
       background-position: 29px 10px; }
   .personcombo-wrapper:before {
-    position: absolute;
+    position: relative;
     display: inline-block;
     font-family: 'clawicon';
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
     text-transform: none;
-    line-height: 1;
-    top: 8px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    line-height: 1;
+    top: 8px;
     background: none;
     text-indent: 0;
     color: #a0c4e4;
@@ -2931,10 +2934,10 @@ input[type="button"].btn-block {
       font-weight: normal;
       font-variant: normal;
       text-transform: none;
-      line-height: 1;
-      top: -1px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
+      line-height: 1;
+      top: -1px;
       background: none;
       font-size: 16px;
       text-indent: 0;
@@ -2947,3 +2950,166 @@ input[type="button"].btn-block {
 
 .cg-autocomplete.cg-menu {
   background: #ffffff; }
+
+.maindiv {
+  background: #29426e !important; }
+  .maindiv #tabs {
+    margin-right: 20px;
+    margin-left: 20px;
+    width: auto; }
+
+.ui-tabs
+.ui-tabs-panel {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.6); }
+
+.ui-tabs .iconM-caret-right-bold,
+.ui-tabs .iconM-caret-left-bold,
+.ui-tabs
+.iconM-caret-bold {
+  position: relative;
+  display: inline-block;
+  font-family: 'clawicon';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  top: 3px;
+  color: #fff;
+  background: transparent; }
+  .ui-tabs .iconM-caret-right-bold:before,
+  .ui-tabs .iconM-caret-left-bold:before,
+  .ui-tabs
+.iconM-caret-bold:before {
+    content: ""; }
+
+.ui-tabs .iconM-caret-right-bold:before {
+  content: ""; }
+
+.ui-tabs .iconM-caret-left-bold:before {
+  content: ""; }
+
+.ui-tabs .iconM-caret-bold:before {
+  content: ""; }
+
+.ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top {
+  border-radius: 2px 2px 0 0 !important;
+  background: #20a48a;
+  border-color: #54bdab !important; }
+  .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top a {
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 4px 13px; }
+  .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top
+.iconM-close-red-tab {
+    position: relative;
+    display: inline-block;
+    font-family: 'clawicon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+    top: 3px;
+    background: none;
+    font-size: 16px;
+    text-indent: 0;
+    color: rgba(255, 255, 255, 0.3);
+    right: 4px;
+    margin: 0 0px 0 5px; }
+    .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top
+.iconM-close-red-tab:hover {
+      color: rgba(255, 255, 255, 0.8); }
+    .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top
+.iconM-close-red-tab:before {
+      content: ""; }
+  .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top.ui-tabs-active {
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+    border: none !important; }
+    .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top.ui-tabs-active
+a {
+      color: #444444; }
+    .ui-tabs
+.ui-tabs-nav
+li.ui-state-default.ui-corner-top.ui-tabs-active
+.iconM-close-red-tab {
+      color: #fb6b5b; }
+
+.ui-tabs
+.ui-tabs-special-area {
+  top: 0; }
+  .ui-tabs
+.ui-tabs-special-area .ui-tabs-special-tab {
+    z-index: 100;
+    position: relative;
+    height: 34px;
+    overflow: hidden;
+    box-shadow: none;
+    border: none !important;
+    background: transparent !important; }
+    .ui-tabs
+.ui-tabs-special-area .ui-tabs-special-tab
+a {
+      height: 30px;
+      width: 30px;
+      display: block;
+      text-align: center;
+      box-shadow: none;
+      margin-right: 4px;
+      margin-top: 4px;
+      background: #20a48a;
+      border-radius: 2px 2px 0 0;
+      border-color: #54bdab; }
+      .ui-tabs
+.ui-tabs-special-area .ui-tabs-special-tab
+a
+.iconM-plus-main {
+        position: relative;
+        display: inline-block;
+        font-family: 'clawicon';
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        line-height: 1;
+        top: -1px;
+        background: none;
+        font-size: 18px;
+        text-indent: 0;
+        color: #ffffff;
+        right: 0px;
+        margin: 0 5px; }
+        .ui-tabs
+.ui-tabs-special-area .ui-tabs-special-tab
+a
+.iconM-plus-main:before {
+          content: ""; }
+    .ui-tabs
+.ui-tabs-special-area .ui-tabs-special-tab.ui-state-active
+a {
+      box-shadow: 0 0 4px #000;
+      background: #fff; }
+      .ui-tabs
+.ui-tabs-special-area .ui-tabs-special-tab.ui-state-active
+a .iconM-plus-main {
+        color: #fb6b5b; }
