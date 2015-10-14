@@ -30,21 +30,110 @@
 }
 
 
-
-.NfsCalendar {
+.nfscalendar-wrapper {
   position: relative;
-  .imgcalendar {
+  .NfsCalendar {
     position: relative;
-    vertical-align: middle;
-    left: -38px;
-    top: -3px;
+  }
+  .imgcalendar {
+    position: absolute;
+    left: 2px;
+    top: 2px;
   }
   .icon-calendar {
-    background-position: -1px -268px;
-    width: 31px;
-    height: 29px;
+    width: 33px;
+    height: 32px;
+    border: 1px solid $input-border;
+    color: lighten($brand-primary,10%);
+    border-radius: 3px;
+    background-color: #ffffff;
+    background-image: none;
+    display: inline-block;
+    font-family: 'clawicon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    &:hover
+    {
+      color: $brand-primary;
+      border-color: $input-border-focus;
+    }
+
+    &:before {
+      content: $claw-calendar-sq;
+      font-size: 22px;
+      margin: 3px 4px;
+      display: block;
+      width: auto;
+    }
   }
 }
+
+
+
+
+.calendars-popup {
+
+  .calendars {
+    font-family: inherit;
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+
+  }
+  .calendars a{
+    color:#ffffff;
+    @include transition(color .2s ease-in-out);
+
+
+  }
+  .calendars-month a
+  {
+    color: #000;
+    &.calendars-cmd-prev, &.calendars-cmd-next
+    {
+      font-size: 14px;
+      padding: 0 9px;
+      font-family: verdana;
+      color: #fff;
+    }
+  }
+
+  .calendars a:hover
+  {
+   color:darken($grid-header-bg,50%);
+  }
+
+
+
+  .calendars-nav, .calendars-ctrl {
+    background-color: $grid-header-bg;
+    background-image: none;
+
+  }
+
+  .calendars-month-header, .calendars-month-header select, .calendars-month-header input {
+    background-color: $grid-header-bg;
+  }
+
+  .calendars-month-header select, .calendars-month-header input
+  {
+    border: 1px solid darken($grid-header-bg,10%);
+    color: #ffffff;
+    padding: 0 5px;
+  }
+  .calendars-month td .calendars-highlight
+  {
+    @include transition(all .2s ease-in-out);
+  }
+
+}
+
+
 
 
 .leo-wrapper {

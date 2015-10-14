@@ -5,13 +5,12 @@
  */
 
 // Core variables and mixins
-//@import "leopard/variables";
 @import "leopard/mixins";
-//@import "leopard/mixins";
 
 // Reset and dependencies
 @import "leopard/normalize";
 @import "leopard/print";
+@import "leopard/inherit";
 
 
 // Core CSS
