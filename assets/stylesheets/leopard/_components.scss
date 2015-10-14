@@ -41,8 +41,8 @@
     top: 2px;
   }
   .icon-calendar {
-    width: 33px;
-    height: 32px;
+    width: 31px;
+    height: 30px;
     border: 1px solid $input-border;
     color: lighten($brand-primary,10%);
     border-radius: 3px;
@@ -342,15 +342,17 @@
   {
     position: absolute;
     right: 3px;
-    top: 9px;
+    top: 11px;
     border: none;
-    background: lighten($brand-primary,20%);
-    padding: 2px;
+    background: transparent;
+    padding: 0;
     display: block;
     height: 19px;
     width: 19px;
+
     .ui-icon
     {
+
       position: relative;
       display: inline-block;
       font-family: 'clawicon';
@@ -359,14 +361,15 @@
       font-variant: normal;
       text-transform: none;
       line-height: 1;
-      top: 2px;
+      top: -1px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       background: none;
-      font-size: 12px;
+      font-size: 16px;
       text-indent: 0;
-      color: #fff;
-      right: 2px;
+      color: #78acd9;
+      right: 0px;
+
       &:before {
         content: $claw-backspace-left;
       }

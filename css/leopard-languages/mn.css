@@ -2655,8 +2655,8 @@ input[type="button"].btn-block {
     right: 2px;
     top: 2px; }
   .nfscalendar-wrapper .icon-calendar {
-    width: 33px;
-    height: 32px;
+    width: 31px;
+    height: 30px;
     border: 1px solid #d2d2d2;
     color: #5094ce;
     border-radius: 3px;
@@ -2907,10 +2907,10 @@ input[type="button"].btn-block {
 .cg-resetButton {
     position: absolute;
     right: 3px;
-    top: 9px;
+    top: 11px;
     border: none;
-    background: #78acd9;
-    padding: 2px;
+    background: transparent;
+    padding: 0;
     display: block;
     height: 19px;
     width: 19px; }
@@ -2925,14 +2925,14 @@ input[type="button"].btn-block {
       font-variant: normal;
       text-transform: none;
       line-height: 1;
-      top: 2px;
+      top: -1px;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       background: none;
-      font-size: 12px;
+      font-size: 16px;
       text-indent: 0;
-      color: #fff;
-      right: 2px; }
+      color: #78acd9;
+      right: 0px; }
       .personcombo-wrapper
 .cg-resetButton
 .ui-icon:before {
