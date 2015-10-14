@@ -105,7 +105,7 @@
 
   .calendars a:hover
   {
-   color:darken($grid-header-bg,50%);
+    color:darken($grid-header-bg,50%);
   }
 
 
@@ -163,5 +163,140 @@
   {
     color: #8b8b8b;
     font-weight: bold;
+  }
+}
+
+
+.k-grid {
+  &.k-widget
+  {
+    border: 1px solid $grid-header-bg;
+  }
+  .k-grid-header {
+    border-bottom-color: darken($grid-header-bg,20%);
+    .k-header {
+      background-color: $grid-header-bg;
+      background-image: none;
+      border-color: darken($grid-header-bg,10%);
+      padding: 0;
+
+    }
+  }
+
+
+  .k-grid-pager
+  {
+    background-color: $grid-footer-bg;
+    background-image: none;
+    border-top: none;
+    font-size: 0.75em;
+    .k-textbox
+    {
+      font-size: 1em;
+    }
+    .k-link
+    {
+      border-radius: 4px;
+      background: lighten($grid-footer-bg,6%);
+      margin: 0 1px;
+      font-size: 1.2em;
+      min-width: 1.6em;
+      line-height: 23px;
+      border: 1px solid darken($grid-footer-bg,5%);
+      height: auto;
+      &:hover
+      {
+        background: darken($grid-footer-bg,10%);
+        border: 1px solid darken($grid-footer-bg,15%);
+      }
+    }
+    .k-pager-numbers .k-state-selected
+    {
+      background: $grid-header-bg;
+      color:#fff;
+      border-radius: 4px;
+      font-size: 1.2em;
+      min-width: 1.6em;
+      line-height: 23px;
+      border: none;
+
+    }
+    &.k-pager-wrap .k-icon
+    {
+      overflow: hidden;
+      text-indent: 70px;
+      color: #444444;
+      position: relative;
+      white-space: nowrap;
+      height: 18px;
+      &:before
+      {
+        position: absolute;
+        left: 0;
+        top: 2px;
+        white-space: nowrap;
+      }
+    }
+  }
+
+
+
+  .k-grid-header th.k-header .k-icon,
+  .k-grid-pager .k-icon
+  {
+    position: relative;
+    display: inline-block;
+    font-family: 'clawicon';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    top: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: none;
+    background-color: transparent;
+    font-size: 16px;
+    color:#fff;
+    &.k-filter:before {
+        content: $claw-grid-filter-sq;
+      }
+    &.k-i-arrow-n:before {
+      content: $claw-up;
+      font-size: 11px;
+    }
+    &.k-i-arrow-s:before {
+      content: $claw-down;
+      font-size: 11px;
+    }
+    &.k-i-arrow-e:before
+    {
+      content: $claw-right;
+    }
+    &.k-i-arrow-w:before
+    {
+      content: $claw-left;
+    }
+    &.k-i-seek-e:before
+    {
+      content: $claw-last-right;
+    }
+    &.k-i-seek-w:before
+    {
+      content: $claw-last-left;
+    }
+    &.k-i-refresh:before
+    {
+      content: $claw-reload;
+    }
+  }
+
+
+
+
+  .k-grid-header-wrap, .k-grid-footer-wrap
+  {
+    border: none;
   }
 }
