@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'clawicon';
-	src:url('fonts/clawicon.eot?clgpe8');
-	src:url('fonts/clawicon.eot?clgpe8#iefix') format('embedded-opentype'),
-		url('fonts/clawicon.ttf?clgpe8') format('truetype'),
-		url('fonts/clawicon.woff?clgpe8') format('woff'),
-		url('fonts/clawicon.svg?clgpe8#clawicon') format('svg');
+	src:url('fonts/clawicon.eot?mahigv');
+	src:url('fonts/clawicon.eot?mahigv#iefix') format('embedded-opentype'),
+		url('fonts/clawicon.ttf?mahigv') format('truetype'),
+		url('fonts/clawicon.woff?mahigv') format('woff'),
+		url('fonts/clawicon.svg?mahigv#clawicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -40,6 +40,24 @@
 }
 .claw-close:before {
 	content: "\e817";
+}
+.claw-support:before {
+	content: "\e825";
+}
+.claw-help-inverse:before {
+	content: "\e820";
+}
+.claw-help:before {
+	content: "\e821";
+}
+.claw-info-inverse:before {
+	content: "\e822";
+}
+.claw-info:before {
+	content: "\e823";
+}
+.claw-logout:before {
+	content: "\e824";
 }
 .claw-backspace-left:before {
 	content: "\e81d";

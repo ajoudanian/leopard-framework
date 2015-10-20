@@ -1,0 +1,40 @@
+//
+// Tables
+// --------------------------------------------------
+
+
+caption {
+  text-align: right;
+}
+th {
+  text-align: right;
+}
+
+
+.table-responsive {
+
+  @media screen and (max-width: $screen-xs-max) {
+
+    > .table-bordered {
+      border: 0;
+
+      > thead,
+      > tbody,
+      > tfoot {
+        > tr {
+          > th:first-child,
+          > td:first-child {
+            border-left-width: 1px;
+            border-right: 0;
+          }
+          > th:last-child,
+          > td:last-child {
+            border-right-width: 1px;
+            border-left: 0;
+
+          }
+        }
+      }
+    }
+  }
+}

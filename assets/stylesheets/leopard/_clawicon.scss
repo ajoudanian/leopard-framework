@@ -53,9 +53,11 @@
   }
 }
 
-
 .claw-gear:before {
   content: "\e818";
+}
+.claw-user-sq:before {
+  content: "\e81f";
 }
 .claw-grid-filter-sq:before {
   content: "\e81a";
@@ -68,6 +70,24 @@
 }
 .claw-close:before {
   content: "\e817";
+}
+.claw-support:before {
+  content: "\e825";
+}
+.claw-help-inverse:before {
+  content: "\e820";
+}
+.claw-help:before {
+  content: "\e821";
+}
+.claw-info-inverse:before {
+  content: "\e822";
+}
+.claw-info:before {
+  content: "\e823";
+}
+.claw-logout:before {
+  content: "\e824";
 }
 .claw-backspace-left:before {
   content: "\e81d";
@@ -147,4 +167,5 @@
 .claw-group:before {
   content: "\e800";
 }
+
 
