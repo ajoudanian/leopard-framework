@@ -20,6 +20,11 @@
 
 .personcombo-wrapper
 {
+  &:before
+  {
+    left: auto;
+    right: 7px;
+  }
   .cg-resetButton {
     right: auto;
     left: 3px;

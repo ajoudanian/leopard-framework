@@ -1683,6 +1683,15 @@ address {
 .claw-close:before {
   content: "\e817"; }
 
+.claw-delete:before {
+  content: "\e826"; }
+
+.claw-flow:before {
+  content: "\e827"; }
+
+.claw-tick:before {
+  content: "\e828"; }
+
 .claw-support:before {
   content: "\e825"; }
 
@@ -2547,6 +2556,11 @@ legend {
     filter: alpha(opacity=65);
     -webkit-box-shadow: none;
     box-shadow: none; }
+  .headermenue .btn {
+    padding: 2px 3px;
+    min-height: 30px; }
+    .headermenue .btn [class^="claw-"], .headermenue .btn [class*=" claw-"] {
+      margin: 0 2px; }
 
 a.btn.disabled,
 fieldset[disabled] a.btn {
@@ -3468,7 +3482,7 @@ input[type="button"].btn-block {
     text-indent: 0;
     color: #a0c4e4;
     font-size: 22px;
-    right: 7px;
+    left: 7px;
     content: ""; }
   .personcombo-wrapper:focus:before {
     color: #5094ce; }
@@ -4721,6 +4735,10 @@ th {
 .nfscalendar-wrapper .imgcalendar {
   left: 2px;
   right: auto; }
+
+.personcombo-wrapper:before {
+  left: auto;
+  right: 7px; }
 
 .personcombo-wrapper .cg-resetButton {
   right: auto;

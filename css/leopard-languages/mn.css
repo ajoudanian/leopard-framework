@@ -1676,6 +1676,15 @@ address {
 .claw-close:before {
   content: "\e817"; }
 
+.claw-delete:before {
+  content: "\e826"; }
+
+.claw-flow:before {
+  content: "\e827"; }
+
+.claw-tick:before {
+  content: "\e828"; }
+
 .claw-support:before {
   content: "\e825"; }
 
@@ -2059,7 +2068,7 @@ output {
 .leo-form-control {
   display: block;
   width: 100%;
-  height: 32px;
+  height: 36px;
   padding: 5px 8px;
   font-size: 14px;
   line-height: 1.42857;
@@ -2102,7 +2111,7 @@ input[type="search"] {
   input[type="time"].leo-form-control,
   input[type="datetime-local"].leo-form-control,
   input[type="month"].leo-form-control {
-    line-height: 32px; }
+    line-height: 36px; }
   input[type="date"].leo-input-sm,
   .leo-input-group-sm input[type="date"],
   input[type="time"].leo-input-sm,
@@ -2275,7 +2284,7 @@ select[multiple].input-lg {
 .leo-has-feedback {
   position: relative; }
   .leo-has-feedback .leo-form-control {
-    padding-right: 40px; }
+    padding-right: 45px; }
 
 .leo-form-control-feedback {
   position: absolute;
@@ -2283,9 +2292,9 @@ select[multiple].input-lg {
   right: 0;
   z-index: 2;
   display: block;
-  width: 32px;
-  height: 32px;
-  line-height: 32px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
   text-align: center;
   pointer-events: none; }
 
@@ -2540,6 +2549,11 @@ legend {
     filter: alpha(opacity=65);
     -webkit-box-shadow: none;
     box-shadow: none; }
+  .headermenue .btn {
+    padding: 2px 3px;
+    min-height: 30px; }
+    .headermenue .btn [class^="claw-"], .headermenue .btn [class*=" claw-"] {
+      margin: 0 2px; }
 
 a.btn.disabled,
 fieldset[disabled] a.btn {
@@ -3461,7 +3475,7 @@ input[type="button"].btn-block {
     text-indent: 0;
     color: #a0c4e4;
     font-size: 22px;
-    right: 7px;
+    left: 7px;
     content: ""; }
   .personcombo-wrapper:focus:before {
     color: #5094ce; }
@@ -4714,6 +4728,10 @@ th {
 .nfscalendar-wrapper .imgcalendar {
   left: 2px;
   right: auto; }
+
+.personcombo-wrapper:before {
+  left: auto;
+  right: 7px; }
 
 .personcombo-wrapper .cg-resetButton {
   right: auto;

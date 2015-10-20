@@ -61,6 +61,16 @@
     @include box-shadow(none);
   }
 
+
+  .headermenue &
+  {
+    padding: 2px 3px;
+    min-height: 30px;
+    [class^="claw-"],[class*=" claw-"] {
+      margin: 0 2px;
+    }
+  }
+
   // [converter] extracted a& to a.btn
 }
 

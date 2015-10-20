@@ -309,7 +309,7 @@
     text-indent: 0;
     color: lighten($brand-primary,30%);
     font-size: 22px;
-    right: 7px;
+    left: 7px;
     content: $claw-user-sq;
   }
   &:focus:before

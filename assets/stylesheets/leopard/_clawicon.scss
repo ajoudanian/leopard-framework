@@ -53,6 +53,9 @@
   }
 }
 
+
+
+
 .claw-gear:before {
   content: "\e818";
 }
@@ -70,6 +73,15 @@
 }
 .claw-close:before {
   content: "\e817";
+}
+.claw-delete:before {
+  content: "\e826";
+}
+.claw-flow:before {
+  content: "\e827";
+}
+.claw-tick:before {
+  content: "\e828";
 }
 .claw-support:before {
   content: "\e825";
@@ -167,5 +179,4 @@
 .claw-group:before {
   content: "\e800";
 }
-
 
