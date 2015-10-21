@@ -371,8 +371,8 @@ hr {
 .leo-container {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 5px;
+  padding-right: 5px; }
   .leo-container:before,
   .leo-container:after {
     content: " ";
@@ -392,8 +392,8 @@ hr {
 .leo-container-flex {
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 5px;
+  padding-right: 5px; }
   .leo-container-flex:before,
   .leo-container-flex:after {
     content: " ";
@@ -2141,7 +2141,8 @@ input[type="search"] {
 .leo-form-group {
   margin-bottom: 5px; }
   .leo-form-group label {
-    font-weight: bold; }
+    font-weight: bold;
+    line-height: 23px; }
 
 .leo-radio,
 .leo-checkbox {
@@ -2983,11 +2984,11 @@ input[type="button"].btn-block {
 
 @media (min-width: 992px) {
   .btn-inline-sm {
-    margin-top: calc(3px + 1.42857em); } }
+    margin-top: 26px; } }
 
 @media (min-width: 768px) {
   .btn-inline-xs {
-    margin-top: calc(3px + 1.42857em); } }
+    margin-top: 26px; } }
 
 .leo-clearfix:before,
 .leo-clearfix:after {
@@ -3224,7 +3225,8 @@ input[type="button"].btn-block {
   border: 1px solid gainsboro;
   background-color: #f5f5f5;
   margin-top: 5px;
-  margin-bottom: 3px; }
+  margin-bottom: 3px;
+  padding: 0 5px; }
 
 .nfscalendar-wrapper {
   position: relative; }
@@ -3233,7 +3235,8 @@ input[type="button"].btn-block {
   .nfscalendar-wrapper .imgcalendar {
     position: absolute;
     right: 2px;
-    top: 2px; }
+    top: 2px;
+    left: auto; }
   .nfscalendar-wrapper .icon-calendar {
     width: 31px;
     height: 30px;
@@ -4691,7 +4694,8 @@ body {
   margin-right: 0; }
 
 .btn.btn-xs [class^="claw-"], .btn.btn-xs [class*=" claw-"] {
-  margin-left: 3px; }
+  margin-left: 3px;
+  margin-right: 0; }
 
 .btn-fav {
   text-align: right; }

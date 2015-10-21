@@ -194,13 +194,13 @@ input[type="button"] {
 {
   @media (min-width: 992px)
   {
-    margin-top: calc(3px + #{$line-height-base}em);
+    margin-top: 26px;
   }
 }
 .btn-inline-xs
 {
   @media (min-width: 768px)
   {
-    margin-top: calc(3px + #{$line-height-base}em);
+    margin-top: 26px;
   }
 }
