@@ -1665,6 +1665,9 @@ address {
   margin-right: 3px;
   font-size: 15.6px; }
 
+.claw-fav:before {
+  content: "\e84c"; }
+
 .claw-dashboard:before {
   content: "\e84b"; }
 
