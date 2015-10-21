@@ -1658,6 +1658,9 @@ address {
   margin-right: 3px;
   font-size: 13.2px; }
 
+.claw-dashboard:before {
+  content: "\e84b"; }
+
 .claw-deactive:before {
   content: "\e800"; }
 
@@ -3774,7 +3777,7 @@ a
 .ui-tabs-special-area .ui-tabs-special-tab
 a
 .iconM-plus-main:before {
-          content: ""; }
+          content: ""; }
     .ui-tabs
 .ui-tabs-special-area .ui-tabs-special-tab.ui-state-active
 a {

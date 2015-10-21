@@ -55,6 +55,9 @@
 
 
 
+.claw-dashboard:before {
+  content: "\e84b";
+}
 .claw-deactive:before {
   content: "\e800";
 }
@@ -280,5 +283,4 @@
 .claw-menu:before {
   content: "\e801";
 }
-
 
