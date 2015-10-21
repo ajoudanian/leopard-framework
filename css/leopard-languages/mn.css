@@ -1658,6 +1658,12 @@ address {
   margin-right: 3px;
   font-size: 13.2px; }
 
+.claw-deactive:before {
+  content: "\e800"; }
+
+.claw-minus:before {
+  content: "\e802"; }
+
 .claw-gear:before {
   content: "\e818"; }
 
@@ -1675,6 +1681,9 @@ address {
 
 .claw-close:before {
   content: "\e817"; }
+
+.claw-cancel:before {
+  content: "\e803"; }
 
 .claw-delete:before {
   content: "\e826"; }
@@ -1730,23 +1739,134 @@ address {
 .claw-up:before {
   content: "\e80e"; }
 
-.claw-user-add:before {
+.claw-active:before {
+  content: "\e804"; }
+
+.claw-flow-add:before {
+  content: "\e806"; }
+
+.claw-flow-edit:before {
+  content: "\e807"; }
+
+.claw-flow-gear:before {
   content: "\e810"; }
 
-.claw-user-edit:before {
+.claw-flow-remove:before {
   content: "\e811"; }
 
-.claw-user-gear:before {
+.claw-flow-review:before {
   content: "\e812"; }
 
-.claw-user-preview:before {
+.claw-flow-save:before {
   content: "\e813"; }
 
-.claw-user-remove:before {
+.claw-flow2:before {
   content: "\e814"; }
 
-.claw-user-template:before {
+.claw-access-add:before {
   content: "\e815"; }
+
+.claw-access-edit:before {
+  content: "\e829"; }
+
+.claw-access-gear:before {
+  content: "\e82a"; }
+
+.claw-access-remove:before {
+  content: "\e82b"; }
+
+.claw-access-review:before {
+  content: "\e82c"; }
+
+.claw-access-save:before {
+  content: "\e82d"; }
+
+.claw-access:before {
+  content: "\e82e"; }
+
+.claw-attendance-add:before {
+  content: "\e82f"; }
+
+.claw-attendance-edit:before {
+  content: "\e830"; }
+
+.claw-attendance-gear:before {
+  content: "\e831"; }
+
+.claw-attendance-preview:before {
+  content: "\e832"; }
+
+.claw-attendance-remove:before {
+  content: "\e833"; }
+
+.claw-attendance-save:before {
+  content: "\e834"; }
+
+.claw-attendance:before {
+  content: "\e835"; }
+
+.claw-period-add:before {
+  content: "\e836"; }
+
+.claw-period-edit:before {
+  content: "\e837"; }
+
+.claw-period-gear:before {
+  content: "\e838"; }
+
+.claw-period-preview:before {
+  content: "\e839"; }
+
+.claw-period-remove:before {
+  content: "\e83a"; }
+
+.claw-period-save:before {
+  content: "\e83b"; }
+
+.claw-period:before {
+  content: "\e83c"; }
+
+.claw-group-add:before {
+  content: "\e83d"; }
+
+.claw-group-edit:before {
+  content: "\e83e"; }
+
+.claw-group-gear:before {
+  content: "\e83f"; }
+
+.claw-group-preview:before {
+  content: "\e840"; }
+
+.claw-group-remove:before {
+  content: "\e841"; }
+
+.claw-group-save:before {
+  content: "\e842"; }
+
+.claw-group:before {
+  content: "\e843"; }
+
+.claw-user-add:before {
+  content: "\e844"; }
+
+.claw-user-edit:before {
+  content: "\e845"; }
+
+.claw-user-gear:before {
+  content: "\e846"; }
+
+.claw-user-preview:before {
+  content: "\e847"; }
+
+.claw-user-remove:before {
+  content: "\e848"; }
+
+.claw-user-save-add:before {
+  content: "\e849"; }
+
+.claw-user-save:before {
+  content: "\e84a"; }
 
 .claw-user:before {
   content: "\e816"; }
@@ -1757,29 +1877,11 @@ address {
 .claw-preview:before {
   content: "\e808"; }
 
-.claw-group-preview:before {
-  content: "\e807"; }
-
-.claw-group-gear:before {
-  content: "\e806"; }
-
-.claw-group-add:before {
-  content: "\e802"; }
-
-.claw-group-remove:before {
-  content: "\e803"; }
-
 .claw-search:before {
   content: "\e805"; }
 
 .claw-menu:before {
   content: "\e801"; }
-
-.claw-group-edit:before {
-  content: "\e804"; }
-
-.claw-group:before {
-  content: "\e800"; }
 
 table {
   background-color: transparent; }
