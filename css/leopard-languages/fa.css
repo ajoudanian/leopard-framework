@@ -1665,6 +1665,63 @@ address {
   margin-right: 3px;
   font-size: 15.6px; }
 
+.claw-migration-add:before {
+  content: "\e90c"; }
+
+.claw-migration:before {
+  content: "\e90d"; }
+
+.claw-translate-add:before {
+  content: "\e90e"; }
+
+.claw-translate-edit:before {
+  content: "\e90f"; }
+
+.claw-translate-remove:before {
+  content: "\e910"; }
+
+.claw-translate-save:before {
+  content: "\e911"; }
+
+.claw-translate:before {
+  content: "\e912"; }
+
+.claw-request-add:before {
+  content: "\e900"; }
+
+.claw-request-edit:before {
+  content: "\e901"; }
+
+.claw-request-gear:before {
+  content: "\e902"; }
+
+.claw-request-preview:before {
+  content: "\e903"; }
+
+.claw-request-remove:before {
+  content: "\e904"; }
+
+.claw-request-report:before {
+  content: "\e905"; }
+
+.claw-request-save:before {
+  content: "\e906"; }
+
+.claw-request:before {
+  content: "\e907"; }
+
+.claw-system-setting:before {
+  content: "\e908"; }
+
+.claw-attendance-report:before {
+  content: "\e909"; }
+
+.claw-salary-report:before {
+  content: "\e90a"; }
+
+.claw-salary:before {
+  content: "\e90b"; }
+
 .claw-shift-add:before {
   content: "\e84d"; }
 
@@ -2338,7 +2395,7 @@ input[type="search"] {
 .leo-checkbox-inline input[type="checkbox"] {
   position: absolute;
   margin-left: -20px;
-  margin-top: 4px \9; }
+  margin-top: 4px; }
 
 .leo-radio + .leo-radio,
 .leo-checkbox + .leo-checkbox {
@@ -4870,6 +4927,60 @@ body {
 .btn.btn-xs [class^="claw-"], .btn.btn-xs [class*=" claw-"] {
   margin-left: 3px;
   margin-right: 0; }
+
+.leo-radio label,
+.leo-checkbox label {
+  padding-right: 20px;
+  padding-left: 0; }
+
+.leo-radio input[type="radio"],
+.leo-radio-inline input[type="radio"],
+.leo-checkbox input[type="checkbox"],
+.leo-checkbox-inline input[type="checkbox"] {
+  margin-right: -20px;
+  margin-left: 0; }
+
+.leo-radio-inline,
+.leo-checkbox-inline {
+  padding-right: 20px;
+  padding-left: 0px; }
+
+.leo-adio-inline + .leo-radio-inline,
+.leo-checkbox-inline + .leo-checkbox-inline {
+  margin-right: 10px;
+  margin-left: 0; }
+
+.leo-has-feedback .leo-form-control {
+  padding-left: 45px;
+  padding-right: 8px; }
+
+.leo-form-control-feedback {
+  left: 0;
+  right: auto; }
+
+.leo-help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #999999; }
+
+@media (min-width: 768px) {
+  .leo-form-inline .leo-radio label,
+  .leo-form-inline .leo-checkbox label {
+    padding-right: 0;
+    padding-left: initial; }
+  .leo-form-inline .leo-radio input[type="radio"],
+  .leo-form-inline .leo-checkbox input[type="checkbox"] {
+    margin-right: 0;
+    margin-left: auto; } }
+
+@media (min-width: 768px) {
+  .leo-form-horizontal .leo-control-label {
+    text-align: left; } }
+
+.leo-form-horizontal .leo-has-feedback .leo-form-control-feedback {
+  left: 5px;
+  right: auto; }
 
 .btn-fav {
   text-align: right; }

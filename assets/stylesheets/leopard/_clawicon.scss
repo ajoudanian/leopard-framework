@@ -55,6 +55,63 @@
 
 
 
+.claw-migration-add:before {
+  content: "\e90c";
+}
+.claw-migration:before {
+  content: "\e90d";
+}
+.claw-translate-add:before {
+  content: "\e90e";
+}
+.claw-translate-edit:before {
+  content: "\e90f";
+}
+.claw-translate-remove:before {
+  content: "\e910";
+}
+.claw-translate-save:before {
+  content: "\e911";
+}
+.claw-translate:before {
+  content: "\e912";
+}
+.claw-request-add:before {
+  content: "\e900";
+}
+.claw-request-edit:before {
+  content: "\e901";
+}
+.claw-request-gear:before {
+  content: "\e902";
+}
+.claw-request-preview:before {
+  content: "\e903";
+}
+.claw-request-remove:before {
+  content: "\e904";
+}
+.claw-request-report:before {
+  content: "\e905";
+}
+.claw-request-save:before {
+  content: "\e906";
+}
+.claw-request:before {
+  content: "\e907";
+}
+.claw-system-setting:before {
+  content: "\e908";
+}
+.claw-attendance-report:before {
+  content: "\e909";
+}
+.claw-salary-report:before {
+  content: "\e90a";
+}
+.claw-salary:before {
+  content: "\e90b";
+}
 .claw-shift-add:before {
   content: "\e84d";
 }
@@ -352,3 +409,4 @@
 .claw-menu:before {
   content: "\e801";
 }
+

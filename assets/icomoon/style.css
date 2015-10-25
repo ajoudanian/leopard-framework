@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'clawicon';
-	src:url('fonts/clawicon.eot?he5qmv');
-	src:url('fonts/clawicon.eot?he5qmv#iefix') format('embedded-opentype'),
-		url('fonts/clawicon.ttf?he5qmv') format('truetype'),
-		url('fonts/clawicon.woff?he5qmv') format('woff'),
-		url('fonts/clawicon.svg?he5qmv#clawicon') format('svg');
+	src:url('fonts/clawicon.eot?hbhftp');
+	src:url('fonts/clawicon.eot?hbhftp#iefix') format('embedded-opentype'),
+		url('fonts/clawicon.ttf?hbhftp') format('truetype'),
+		url('fonts/clawicon.woff?hbhftp') format('woff'),
+		url('fonts/clawicon.svg?hbhftp#clawicon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -23,6 +23,63 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.claw-migration-add:before {
+	content: "\e90c";
+}
+.claw-migration:before {
+	content: "\e90d";
+}
+.claw-translate-add:before {
+	content: "\e90e";
+}
+.claw-translate-edit:before {
+	content: "\e90f";
+}
+.claw-translate-remove:before {
+	content: "\e910";
+}
+.claw-translate-save:before {
+	content: "\e911";
+}
+.claw-translate:before {
+	content: "\e912";
+}
+.claw-request-add:before {
+	content: "\e900";
+}
+.claw-request-edit:before {
+	content: "\e901";
+}
+.claw-request-gear:before {
+	content: "\e902";
+}
+.claw-request-preview:before {
+	content: "\e903";
+}
+.claw-request-remove:before {
+	content: "\e904";
+}
+.claw-request-report:before {
+	content: "\e905";
+}
+.claw-request-save:before {
+	content: "\e906";
+}
+.claw-request:before {
+	content: "\e907";
+}
+.claw-system-setting:before {
+	content: "\e908";
+}
+.claw-attendance-report:before {
+	content: "\e909";
+}
+.claw-salary-report:before {
+	content: "\e90a";
+}
+.claw-salary:before {
+	content: "\e90b";
+}
 .claw-shift-add:before {
 	content: "\e84d";
 }
