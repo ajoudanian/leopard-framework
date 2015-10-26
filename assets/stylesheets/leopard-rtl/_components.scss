@@ -36,3 +36,31 @@
     }
   }
 }
+
+
+
+
+.k-grid {
+  .k-grid-header th.k-header .k-icon,
+  .k-grid-pager .k-icon
+  {
+
+    &.k-i-arrow-e:before
+    {
+      content: $claw-left;
+    }
+    &.k-i-arrow-w:before
+    {
+      content: $claw-right;
+    }
+    &.k-i-seek-e:before
+    {
+      content: $claw-last-left;
+    }
+    &.k-i-seek-w:before
+    {
+      content: $claw-last-right;
+    }
+  }
+
+}

@@ -5130,3 +5130,27 @@ th {
   .personcombo-wrapper .cg-resetButton
 .ui-icon:before {
     content: ""; }
+
+.k-grid .k-grid-header th.k-header .k-icon.k-i-arrow-e:before
+,
+.k-grid
+.k-grid-pager .k-icon.k-i-arrow-e:before {
+  content: ""; }
+
+.k-grid .k-grid-header th.k-header .k-icon.k-i-arrow-w:before
+,
+.k-grid
+.k-grid-pager .k-icon.k-i-arrow-w:before {
+  content: ""; }
+
+.k-grid .k-grid-header th.k-header .k-icon.k-i-seek-e:before
+,
+.k-grid
+.k-grid-pager .k-icon.k-i-seek-e:before {
+  content: ""; }
+
+.k-grid .k-grid-header th.k-header .k-icon.k-i-seek-w:before
+,
+.k-grid
+.k-grid-pager .k-icon.k-i-seek-w:before {
+  content: ""; }
