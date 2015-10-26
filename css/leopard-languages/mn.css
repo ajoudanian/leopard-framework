@@ -3959,6 +3959,56 @@ a .iconM-plus-main {
     line-height: 1.42857 !important;
     height: 29px; }
 
+.ms-parent {
+  display: block;
+  width: 100% !important; }
+  .ms-parent
+.ms-choice {
+    display: block;
+    height: 36px !important;
+    border: 1px solid #d2d2d2 !important;
+    border-radius: 4px !important;
+    line-height: 1.42857 !important;
+    width: 100% !important; }
+    .ms-parent
+.ms-choice:focus {
+      outline: thin dotted;
+      outline: 5px auto -webkit-focus-ring-color;
+      outline-offset: -2px;
+      border-color: #10a58a !important;
+      box-shadow: none !important; }
+    .ms-parent
+.ms-choice
+> div {
+      height: 36px !important;
+      background: transparent;
+      padding: 0 5px;
+      width: auto !important; }
+      .ms-parent
+.ms-choice
+> div:before {
+        position: relative;
+        display: inline-block;
+        font-family: 'clawicon';
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        content: "";
+        line-height: 36px;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.9); }
+      .ms-parent
+.ms-choice
+> div.open {
+        background: transparent; }
+        .ms-parent
+.ms-choice
+> div.open:before {
+          content: ""; }
+
 /*!
  * Leopard rtl v1.0.0
  * Copyright 2011-2015 Amir Ajoudanian (amir@ajoudanian.com)

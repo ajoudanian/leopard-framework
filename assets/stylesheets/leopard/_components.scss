@@ -544,3 +544,45 @@
   }
 }
 
+.ms-parent
+{
+  display: block;
+  width: 100% !important;
+  .ms-choice
+  {
+    display: block;
+    height: $input-height-base !important;
+    border: 1px solid $input-border !important;
+    border-radius: $input-border-radius !important;
+    line-height: $line-height-base !important;
+    width: 100% !important;
+    &:focus
+    {
+      @include tab-focus;
+      border-color: #10a58a !important;
+      box-shadow: none !important;
+    }
+    > div
+    {
+      height: $input-height-base !important;
+      background: transparent;
+      padding: 0 5px;
+      width: auto !important;
+      &:before {
+        @include leo-icon-setting();
+        content: $claw-down;
+        line-height: $input-height-base;
+        font-size: 14px;
+        color: rgba(0,0,0,0.9);
+      }
+      &.open
+      {
+        background: transparent;
+        &:before {
+          content: $claw-up;
+        }
+
+      }
+    }
+  }
+}
