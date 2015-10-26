@@ -503,3 +503,44 @@
 
 }
 
+.combotree-base
+{
+  .combo
+  {
+    width: 100% !important;
+    height: $input-height-base !important;
+    border: 1px solid $input-border !important;
+    border-radius: $input-border-radius !important;
+    padding: $padding-base-vertical $padding-base-horizontal !important;
+    font-size: $font-size-base;
+    line-height: $line-height-base !important;
+    color: $input-color !important;
+    background-color: $input-bg;
+    background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.com/necolas/normalize.css/issues/214
+    &.textbox-focused
+    {
+      border-color: #10a58a !important;
+      box-shadow: none !important;
+    }
+    .textbox-addon a
+    {
+      height: $input-height-base !important;
+      background-color: transparent;
+      padding: 0 5px;
+      width: auto !important;
+      &:before {
+        @include leo-icon-setting();
+        content: $claw-down;
+        line-height: $input-height-base;
+        font-size: 14px;
+        color: rgba(0,0,0,0.9);
+      }
+    }
+    .textbox-text
+    {
+      line-height: $line-height-base !important;
+      height: 29px;
+    }
+  }
+}
+

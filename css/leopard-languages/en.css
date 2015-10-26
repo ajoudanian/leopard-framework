@@ -3920,3 +3920,48 @@ a {
 .ui-tabs-special-area .ui-tabs-special-tab.ui-state-active
 a .iconM-plus-main {
         color: #fb6b5b; }
+
+.combotree-base
+.combo {
+  width: 100% !important;
+  height: 36px !important;
+  border: 1px solid #d2d2d2 !important;
+  border-radius: 4px !important;
+  padding: 5px 8px !important;
+  font-size: 15px;
+  line-height: 1.42857 !important;
+  color: #3c3c3c !important;
+  background-color: #ffffff;
+  background-image: none; }
+  .combotree-base
+.combo.textbox-focused {
+    border-color: #10a58a !important;
+    box-shadow: none !important; }
+  .combotree-base
+.combo
+.textbox-addon a {
+    height: 36px !important;
+    background-color: transparent;
+    padding: 0 5px;
+    width: auto !important; }
+    .combotree-base
+.combo
+.textbox-addon a:before {
+      position: relative;
+      display: inline-block;
+      font-family: 'clawicon';
+      font-style: normal;
+      font-weight: normal;
+      font-variant: normal;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "";
+      line-height: 36px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.9); }
+  .combotree-base
+.combo
+.textbox-text {
+    line-height: 1.42857 !important;
+    height: 29px; }
