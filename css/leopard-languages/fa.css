@@ -3271,7 +3271,7 @@ input[type="button"].btn-block {
     border-radius: 5px;
     padding: 4px;
     background: #B2B4B4;
-    margin-right: 30px;
+    margin-left: 30px;
     line-height: 23px;
     height: 31px;
     overflow: hidden; }
@@ -5180,6 +5180,10 @@ th {
 
 .leo-pull-left {
   float: right !important; }
+
+.leo-set .leo-set-row .leo-set-info {
+  margin-right: 30px;
+  margin-left: 0; }
 
 .container-toolbar .toolbar ul li {
   margin-left: 0;
