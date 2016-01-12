@@ -3262,6 +3262,75 @@ input[type="button"].btn-block {
 .leo-affix {
   position: fixed; }
 
+.leo-set .leo-set-row {
+  position: relative;
+  margin-bottom: 5px;
+  box-sizing: border-box; }
+  .leo-set .leo-set-row .leo-set-info {
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 4px;
+    background: #B2B4B4;
+    margin-right: 30px;
+    line-height: 23px;
+    height: 31px;
+    overflow: hidden; }
+    .leo-set .leo-set-row .leo-set-info:after {
+      clear: both;
+      display: block;
+      content: ''; }
+    .leo-set .leo-set-row .leo-set-info
+.leo-set-actions .leo-set-action-btn {
+      opacity: 0.7;
+      font-size: 16px;
+      line-height: 23px;
+      padding: 0px 2px;
+      cursor: pointer; }
+      .leo-set .leo-set-row .leo-set-info
+.leo-set-actions .leo-set-action-btn:hover {
+        opacity: 1; }
+  .leo-set .leo-set-row .leo-set-icon {
+    position: absolute;
+    top: 4px;
+    line-height: 25px;
+    font-size: 1.3em;
+    color: #B2B4B4; }
+  .leo-set .leo-set-row.leo-set-blue .leo-set-info {
+    background: #52a4ca; }
+  .leo-set .leo-set-row.leo-set-blue .leo-set-icon {
+    color: #52a4ca; }
+  .leo-set .leo-set-row.leo-set-green .leo-set-info {
+    background: #35ae90; }
+  .leo-set .leo-set-row.leo-set-green .leo-set-icon {
+    color: #35ae90; }
+  .leo-set .leo-set-row.leo-set-red .leo-set-info {
+    background: #e97a7a; }
+  .leo-set .leo-set-row.leo-set-red .leo-set-icon {
+    color: #e97a7a; }
+  .leo-set .leo-set-row.leo-set-disable .leo-set-info {
+    background: #c4d1d7; }
+  .leo-set .leo-set-row.leo-set-disable .leo-set-icon {
+    color: #c4d1d7; }
+  .leo-set .leo-set-row.leo-set-bordered .leo-set-info {
+    border: 2px solid #B2B4B4;
+    background: transparent;
+    color: #333333; }
+    .leo-set .leo-set-row.leo-set-bordered .leo-set-info
+.leo-set-actions .leo-set-action-btn {
+      line-height: 17px; }
+  .leo-set .leo-set-row.leo-set-bordered.leo-set-blue .leo-set-info {
+    border-color: #52a4ca; }
+  .leo-set .leo-set-row.leo-set-bordered.leo-set-green .leo-set-info {
+    border-color: #35ae90; }
+  .leo-set .leo-set-row.leo-set-bordered.leo-set-red .leo-set-info {
+    border-color: #e97a7a; }
+  .leo-set .leo-set-row.leo-set-bordered.leo-set-disable .leo-set-info {
+    border-color: #c4d1d7; }
+  .leo-set .leo-set-row.leo-set-row-selected .leo-set-info.leo-set-info {
+    background: #1c59be;
+    border-color: #1c59be;
+    color: #ffffff; }
+
 @-ms-viewport {
   width: device-width; }
 
