@@ -1665,6 +1665,159 @@ address {
   margin-right: 3px;
   font-size: 14.4px; }
 
+.claw-period-report:before {
+  content: "\e913"; }
+
+.claw-print-edit:before {
+  content: "\e914"; }
+
+.claw-print:before {
+  content: "\e915"; }
+
+.claw-role-add:before {
+  content: "\e916"; }
+
+.claw-role-edit:before {
+  content: "\e917"; }
+
+.claw-role-gear:before {
+  content: "\e918"; }
+
+.claw-role-preview:before {
+  content: "\e919"; }
+
+.claw-role-remove:before {
+  content: "\e91a"; }
+
+.claw-role-report:before {
+  content: "\e91b"; }
+
+.claw-role-save:before {
+  content: "\e91c"; }
+
+.claw-role:before {
+  content: "\e91d"; }
+
+.claw-holiday-add:before {
+  content: "\e91e"; }
+
+.claw-holiday-edit:before {
+  content: "\e91f"; }
+
+.claw-holiday-gear:before {
+  content: "\e920"; }
+
+.claw-holiday-preview:before {
+  content: "\e921"; }
+
+.claw-holiday-remove:before {
+  content: "\e922"; }
+
+.claw-holiday-save:before {
+  content: "\e923"; }
+
+.claw-holiday:before {
+  content: "\e924"; }
+
+.claw-kardex-add:before {
+  content: "\e925"; }
+
+.claw-kardex-edit:before {
+  content: "\e926"; }
+
+.claw-kardex-gear:before {
+  content: "\e927"; }
+
+.claw-kardex-preview:before {
+  content: "\e928"; }
+
+.claw-kardex-remove:before {
+  content: "\e929"; }
+
+.claw-kardex-report:before {
+  content: "\e92a"; }
+
+.claw-kardex-save:before {
+  content: "\e92b"; }
+
+.claw-kardex:before {
+  content: "\e92c"; }
+
+.claw-management-pages:before {
+  content: "\e92d"; }
+
+.claw-form-designer:before {
+  content: "\e92e"; }
+
+.claw-Assignment-add:before {
+  content: "\e92f"; }
+
+.claw-Assignment-edit:before {
+  content: "\e930"; }
+
+.claw-Assignment-gear:before {
+  content: "\e931"; }
+
+.claw-Assignment-preview:before {
+  content: "\e932"; }
+
+.claw-Assignment-remove:before {
+  content: "\e933"; }
+
+.claw-Assignment-report:before {
+  content: "\e934"; }
+
+.claw-Assignment-save:before {
+  content: "\e935"; }
+
+.claw-Assignment:before {
+  content: "\e936"; }
+
+.claw-film-add:before {
+  content: "\e937"; }
+
+.claw-film-edit:before {
+  content: "\e938"; }
+
+.claw-film-gear:before {
+  content: "\e939"; }
+
+.claw-film-preview:before {
+  content: "\e93a"; }
+
+.claw-film-remove:before {
+  content: "\e93b"; }
+
+.claw-film-report:before {
+  content: "\e93c"; }
+
+.claw-film-save:before {
+  content: "\e93d"; }
+
+.claw-film:before {
+  content: "\e93e"; }
+
+.claw-Folder-add:before {
+  content: "\e93f"; }
+
+.claw-Folder-edit:before {
+  content: "\e940"; }
+
+.claw-Folder-gear:before {
+  content: "\e941"; }
+
+.claw-Folder-preview:before {
+  content: "\e942"; }
+
+.claw-Folder-remove:before {
+  content: "\e943"; }
+
+.claw-Folder-save:before {
+  content: "\e944"; }
+
+.claw-Folder:before {
+  content: "\e945"; }
+
 .claw-migration-add:before {
   content: "\e90c"; }
 
@@ -3330,6 +3483,16 @@ input[type="button"].btn-block {
     background: #1c59be;
     border-color: #1c59be;
     color: #ffffff; }
+
+.ul-permanet-filter {
+  width: inherit;
+  list-style: none;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  margin-left: 3px; }
 
 @-ms-viewport {
   width: device-width; }
