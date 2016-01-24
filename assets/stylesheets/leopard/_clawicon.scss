@@ -60,9 +60,6 @@
 .claw-print-edit:before {
   content: "\e914";
 }
-.claw-print:before {
-  content: "\e915";
-}
 .claw-role-add:before {
   content: "\e916";
 }
@@ -86,6 +83,9 @@
 }
 .claw-role:before {
   content: "\e91d";
+}
+.claw-print:before {
+  content: "\e915";
 }
 .claw-holiday-add:before {
   content: "\e91e";
@@ -561,5 +561,3 @@
 .claw-menu:before {
   content: "\e801";
 }
-
-
