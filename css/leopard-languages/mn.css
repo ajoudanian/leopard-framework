@@ -3477,7 +3477,7 @@ input[type="button"].btn-block {
     border-color: #1c59be;
     color: #ffffff; }
 
-.ul-permanet-filter {
+.ul-permanet-filter-list .permanet-filter-item {
   width: inherit;
   list-style: none;
   position: relative;
@@ -3485,7 +3485,32 @@ input[type="button"].btn-block {
   margin-bottom: 5px;
   border-radius: 5px;
   padding: 0 5px 0 5px;
-  margin-left: 3px; }
+  margin-right: 3px; }
+  .ul-permanet-filter-list .permanet-filter-item .editingclassoff {
+    display: none; }
+  .ul-permanet-filter-list .permanet-filter-item .permanent-filter-edit,
+  .ul-permanet-filter-list .permanet-filter-item
+.permanent-filter-delete {
+    padding: 0;
+    margin-top: 2px;
+    display: inline;
+    background: transparent;
+    border: none;
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    cursor: pointer; }
+    .ul-permanet-filter-list .permanet-filter-item .permanent-filter-edit:hover
+,
+    .ul-permanet-filter-list .permanet-filter-item
+.permanent-filter-delete:hover {
+      color: #fff; }
+  .ul-permanet-filter-list .permanet-filter-item
+.permanent-filter-title {
+    color: rgba(240, 240, 240, 0.8); }
+    .ul-permanet-filter-list .permanet-filter-item
+.permanent-filter-title:hover {
+      text-decoration: none;
+      color: #fff; }
 
 @-ms-viewport {
   width: device-width; }

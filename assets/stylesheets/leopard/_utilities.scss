@@ -183,14 +183,46 @@
   }
 }
 
+.ul-permanet-filter-list {
+  .permanet-filter-item {
+    width: inherit;
+    list-style: none;
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin-right: 3px;
 
-.ul-permanet-filter {
-  width: inherit;
-  list-style: none;
-  position: relative;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border-radius: 5px;
-  padding: 0 5px 0 5px;
-  margin-left: 3px;
+    .editingclassoff {
+      display: none;
+    }
+    .permanent-filter-edit,
+    .permanent-filter-delete
+    {
+      padding: 0;
+      margin-top: 2px;
+      display: inline;
+      background: transparent;
+      border: none;
+      font-size: 11px;
+      color: rgba(255,255,255,0.6);
+      cursor: pointer;
+      &:hover
+      {
+        color: #fff;
+      }
+    }
+    .permanent-filter-title
+    {
+      color: rgba(240,240,240,0.8);
+      &:hover
+      {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+  }
 }
+
