@@ -3442,6 +3442,8 @@ input[type="button"].btn-block {
       .leo-set .leo-set-row .leo-set-info
 .leo-set-actions .leo-set-action-btn:hover {
         opacity: 1; }
+  .leo-set .leo-set-row.leo-set-no-icon .leo-set-info {
+    margin-left: 0; }
   .leo-set .leo-set-row .leo-set-icon {
     position: absolute;
     top: 4px;
@@ -5372,6 +5374,9 @@ th {
 .leo-set .leo-set-row .leo-set-info {
   margin-right: 30px;
   margin-left: 0; }
+
+.leo-set .leo-set-row.leo-set-no-icon .leo-set-info {
+  margin-right: 0; }
 
 .container-toolbar .toolbar ul li {
   margin-left: 0;
