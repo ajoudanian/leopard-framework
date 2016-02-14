@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'clawicon';
-    src:    url('#{$icomoon-font-path}/clawicon.eot?7813v5');
-    src:    url('#{$icomoon-font-path}/clawicon.eot?7813v5#iefix') format('embedded-opentype'),
-        url('#{$icomoon-font-path}/clawicon.ttf?7813v5') format('truetype'),
-        url('#{$icomoon-font-path}/clawicon.woff?7813v5') format('woff'),
-        url('#{$icomoon-font-path}/clawicon.svg?7813v5#clawicon') format('svg');
+    src:    url('#{$icomoon-font-path}/clawicon.eot?yd95pi');
+    src:    url('#{$icomoon-font-path}/clawicon.eot?yd95pi#iefix') format('embedded-opentype'),
+        url('#{$icomoon-font-path}/clawicon.ttf?yd95pi') format('truetype'),
+        url('#{$icomoon-font-path}/clawicon.woff?yd95pi') format('woff'),
+        url('#{$icomoon-font-path}/clawicon.svg?yd95pi#clawicon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,6 +26,21 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.claw-cartable-gear {
+    &:before {
+        content: $claw-cartable-gear;
+    }
+}
+.claw-cartable-report {
+    &:before {
+        content: $claw-cartable-report;
+    }
+}
+.claw-cartable {
+    &:before {
+        content: $claw-cartable;
+    }
+}
 .claw-kardex-transmit-add {
     &:before {
         content: $claw-kardex-transmit-add;

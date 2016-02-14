@@ -54,6 +54,21 @@
 }
 
 
+.claw-cartable-gear {
+  &:before {
+    content: $claw-cartable-gear;
+  }
+}
+.claw-cartable-report {
+  &:before {
+    content: $claw-cartable-report;
+  }
+}
+.claw-cartable {
+  &:before {
+    content: $claw-cartable;
+  }
+}
 .claw-kardex-transmit-add {
   &:before {
     content: $claw-kardex-transmit-add;

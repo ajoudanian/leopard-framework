@@ -1658,6 +1658,15 @@ address {
   margin-right: 3px;
   font-size: 13.2px; }
 
+.claw-cartable-gear:before {
+  content: ""; }
+
+.claw-cartable-report:before {
+  content: ""; }
+
+.claw-cartable:before {
+  content: ""; }
+
 .claw-kardex-transmit-add:before {
   content: ""; }
 
