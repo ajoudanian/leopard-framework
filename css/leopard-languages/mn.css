@@ -1658,512 +1658,536 @@ address {
   margin-right: 3px;
   font-size: 13.2px; }
 
+.claw-kardex-transmit-add:before {
+  content: ""; }
+
+.claw-kardex-transmit-edit:before {
+  content: ""; }
+
+.claw-kardex-transmit-gear:before {
+  content: ""; }
+
+.claw-kardex-transmit-preview:before {
+  content: ""; }
+
+.claw-kardex-transmit-remove:before {
+  content: ""; }
+
+.claw-kardex-transmit-report:before {
+  content: ""; }
+
+.claw-kardex-transmit-save:before {
+  content: ""; }
+
+.claw-kardex-transmit:before {
+  content: ""; }
+
 .claw-period-report:before {
-  content: "\e913"; }
+  content: ""; }
 
 .claw-print-edit:before {
-  content: "\e914"; }
+  content: ""; }
 
 .claw-role-add:before {
-  content: "\e916"; }
+  content: ""; }
 
 .claw-role-edit:before {
-  content: "\e917"; }
+  content: ""; }
 
 .claw-role-gear:before {
-  content: "\e918"; }
+  content: ""; }
 
 .claw-role-preview:before {
-  content: "\e919"; }
+  content: ""; }
 
 .claw-role-remove:before {
-  content: "\e91a"; }
+  content: ""; }
 
 .claw-role-report:before {
-  content: "\e91b"; }
+  content: ""; }
 
 .claw-role-save:before {
-  content: "\e91c"; }
+  content: ""; }
 
 .claw-role:before {
-  content: "\e91d"; }
+  content: ""; }
 
 .claw-print:before {
-  content: "\e915"; }
+  content: ""; }
 
 .claw-holiday-add:before {
-  content: "\e91e"; }
+  content: ""; }
 
 .claw-holiday-edit:before {
-  content: "\e91f"; }
+  content: ""; }
 
 .claw-holiday-gear:before {
-  content: "\e920"; }
+  content: ""; }
 
 .claw-holiday-preview:before {
-  content: "\e921"; }
+  content: ""; }
 
 .claw-holiday-remove:before {
-  content: "\e922"; }
+  content: ""; }
 
 .claw-holiday-save:before {
-  content: "\e923"; }
+  content: ""; }
 
 .claw-holiday:before {
-  content: "\e924"; }
+  content: ""; }
 
 .claw-kardex-add:before {
-  content: "\e925"; }
+  content: ""; }
 
 .claw-kardex-edit:before {
-  content: "\e926"; }
+  content: ""; }
 
 .claw-kardex-gear:before {
-  content: "\e927"; }
+  content: ""; }
 
 .claw-kardex-preview:before {
-  content: "\e928"; }
+  content: ""; }
 
 .claw-kardex-remove:before {
-  content: "\e929"; }
+  content: ""; }
 
 .claw-kardex-report:before {
-  content: "\e92a"; }
+  content: ""; }
 
 .claw-kardex-save:before {
-  content: "\e92b"; }
+  content: ""; }
 
 .claw-kardex:before {
-  content: "\e92c"; }
+  content: ""; }
 
 .claw-management-pages:before {
-  content: "\e92d"; }
+  content: ""; }
 
 .claw-form-designer:before {
-  content: "\e92e"; }
+  content: ""; }
 
 .claw-Assignment-add:before {
-  content: "\e92f"; }
+  content: ""; }
 
 .claw-Assignment-edit:before {
-  content: "\e930"; }
+  content: ""; }
 
 .claw-Assignment-gear:before {
-  content: "\e931"; }
+  content: ""; }
 
 .claw-Assignment-preview:before {
-  content: "\e932"; }
+  content: ""; }
 
 .claw-Assignment-remove:before {
-  content: "\e933"; }
+  content: ""; }
 
 .claw-Assignment-report:before {
-  content: "\e934"; }
+  content: ""; }
 
 .claw-Assignment-save:before {
-  content: "\e935"; }
+  content: ""; }
 
 .claw-Assignment:before {
-  content: "\e936"; }
+  content: ""; }
 
 .claw-film-add:before {
-  content: "\e937"; }
+  content: ""; }
 
 .claw-film-edit:before {
-  content: "\e938"; }
+  content: ""; }
 
 .claw-film-gear:before {
-  content: "\e939"; }
+  content: ""; }
 
 .claw-film-preview:before {
-  content: "\e93a"; }
+  content: ""; }
 
 .claw-film-remove:before {
-  content: "\e93b"; }
+  content: ""; }
 
 .claw-film-report:before {
-  content: "\e93c"; }
+  content: ""; }
 
 .claw-film-save:before {
-  content: "\e93d"; }
+  content: ""; }
 
 .claw-film:before {
-  content: "\e93e"; }
+  content: ""; }
 
 .claw-Folder-add:before {
-  content: "\e93f"; }
+  content: ""; }
 
 .claw-Folder-edit:before {
-  content: "\e940"; }
+  content: ""; }
 
 .claw-Folder-gear:before {
-  content: "\e941"; }
+  content: ""; }
 
 .claw-Folder-preview:before {
-  content: "\e942"; }
+  content: ""; }
 
 .claw-Folder-remove:before {
-  content: "\e943"; }
+  content: ""; }
 
 .claw-Folder-save:before {
-  content: "\e944"; }
+  content: ""; }
 
 .claw-Folder:before {
-  content: "\e945"; }
+  content: ""; }
 
 .claw-migration-add:before {
-  content: "\e90c"; }
+  content: ""; }
 
 .claw-migration:before {
-  content: "\e90d"; }
+  content: ""; }
 
 .claw-translate-add:before {
-  content: "\e90e"; }
+  content: ""; }
 
 .claw-translate-edit:before {
-  content: "\e90f"; }
+  content: ""; }
 
 .claw-translate-remove:before {
-  content: "\e910"; }
+  content: ""; }
 
 .claw-translate-save:before {
-  content: "\e911"; }
+  content: ""; }
 
 .claw-translate:before {
-  content: "\e912"; }
+  content: ""; }
 
 .claw-request-add:before {
-  content: "\e900"; }
+  content: ""; }
 
 .claw-request-edit:before {
-  content: "\e901"; }
+  content: ""; }
 
 .claw-request-gear:before {
-  content: "\e902"; }
+  content: ""; }
 
 .claw-request-preview:before {
-  content: "\e903"; }
+  content: ""; }
 
 .claw-request-remove:before {
-  content: "\e904"; }
+  content: ""; }
 
 .claw-request-report:before {
-  content: "\e905"; }
+  content: ""; }
 
 .claw-request-save:before {
-  content: "\e906"; }
+  content: ""; }
 
 .claw-request:before {
-  content: "\e907"; }
+  content: ""; }
 
 .claw-system-setting:before {
-  content: "\e908"; }
+  content: ""; }
 
 .claw-attendance-report:before {
-  content: "\e909"; }
+  content: ""; }
 
 .claw-salary-report:before {
-  content: "\e90a"; }
+  content: ""; }
 
 .claw-salary:before {
-  content: "\e90b"; }
+  content: ""; }
 
 .claw-shift-add:before {
-  content: "\e84d"; }
+  content: ""; }
 
 .claw-shift-edit:before {
-  content: "\e84e"; }
+  content: ""; }
 
 .claw-shift-gear:before {
-  content: "\e84f"; }
+  content: ""; }
 
 .claw-shift-preview:before {
-  content: "\e850"; }
+  content: ""; }
 
 .claw-shift-remove:before {
-  content: "\e851"; }
+  content: ""; }
 
 .claw-shift-save:before {
-  content: "\e852"; }
+  content: ""; }
 
 .claw-shift:before {
-  content: "\e853"; }
+  content: ""; }
 
 .claw-rule-add:before {
-  content: "\e854"; }
+  content: ""; }
 
 .claw-rule-edit:before {
-  content: "\e855"; }
+  content: ""; }
 
 .claw-rule-gear:before {
-  content: "\e856"; }
+  content: ""; }
 
 .claw-rule-preview:before {
-  content: "\e857"; }
+  content: ""; }
 
 .claw-rule-remove:before {
-  content: "\e858"; }
+  content: ""; }
 
 .claw-rule-save:before {
-  content: "\e859"; }
+  content: ""; }
 
 .claw-rule:before {
-  content: "\e85a"; }
+  content: ""; }
 
 .claw-chart-add:before {
-  content: "\e85b"; }
+  content: ""; }
 
 .claw-chart-edit:before {
-  content: "\e85c"; }
+  content: ""; }
 
 .claw-chart-gear:before {
-  content: "\e85d"; }
+  content: ""; }
 
 .claw-chart-preview:before {
-  content: "\e85e"; }
+  content: ""; }
 
 .claw-chart-remove:before {
-  content: "\e85f"; }
+  content: ""; }
 
 .claw-chart-save:before {
-  content: "\e860"; }
+  content: ""; }
 
 .claw-chart:before {
-  content: "\e861"; }
+  content: ""; }
 
 .claw-edit:before {
-  content: "\e862"; }
+  content: ""; }
 
 .claw-fav:before {
-  content: "\e84c"; }
+  content: ""; }
 
 .claw-dashboard:before {
-  content: "\e84b"; }
+  content: ""; }
 
 .claw-deactive:before {
-  content: "\e800"; }
+  content: ""; }
 
 .claw-minus:before {
-  content: "\e802"; }
+  content: ""; }
 
 .claw-gear:before {
-  content: "\e818"; }
+  content: ""; }
 
 .claw-user-sq:before {
-  content: "\e81f"; }
+  content: ""; }
 
 .claw-grid-filter-sq:before {
-  content: "\e81a"; }
+  content: ""; }
 
 .claw-calendar-sq:before {
-  content: "\e819"; }
+  content: ""; }
 
 .claw-close-inverse:before {
-  content: "\e80f"; }
+  content: ""; }
 
 .claw-close:before {
-  content: "\e817"; }
+  content: ""; }
 
 .claw-cancel:before {
-  content: "\e803"; }
+  content: ""; }
 
 .claw-delete:before {
-  content: "\e826"; }
+  content: ""; }
 
 .claw-flow:before {
-  content: "\e827"; }
+  content: ""; }
 
 .claw-tick:before {
-  content: "\e828"; }
+  content: ""; }
 
 .claw-support:before {
-  content: "\e825"; }
+  content: ""; }
 
 .claw-help-inverse:before {
-  content: "\e820"; }
+  content: ""; }
 
 .claw-help:before {
-  content: "\e821"; }
+  content: ""; }
 
 .claw-info-inverse:before {
-  content: "\e822"; }
+  content: ""; }
 
 .claw-info:before {
-  content: "\e823"; }
+  content: ""; }
 
 .claw-logout:before {
-  content: "\e824"; }
+  content: ""; }
 
 .claw-backspace-left:before {
-  content: "\e81d"; }
+  content: ""; }
 
 .claw-backspace-right:before {
-  content: "\e81e"; }
+  content: ""; }
 
 .claw-last-left:before {
-  content: "\e81b"; }
+  content: ""; }
 
 .claw-last-right:before {
-  content: "\e81c"; }
+  content: ""; }
 
 .claw-reload:before {
-  content: "\e80a"; }
+  content: ""; }
 
 .claw-down:before {
-  content: "\e80b"; }
+  content: ""; }
 
 .claw-left:before {
-  content: "\e80c"; }
+  content: ""; }
 
 .claw-right:before {
-  content: "\e80d"; }
+  content: ""; }
 
 .claw-up:before {
-  content: "\e80e"; }
+  content: ""; }
 
 .claw-active:before {
-  content: "\e804"; }
+  content: ""; }
 
 .claw-flow-add:before {
-  content: "\e806"; }
+  content: ""; }
 
 .claw-flow-edit:before {
-  content: "\e807"; }
+  content: ""; }
 
 .claw-flow-gear:before {
-  content: "\e810"; }
+  content: ""; }
 
 .claw-flow-remove:before {
-  content: "\e811"; }
+  content: ""; }
 
 .claw-flow-review:before {
-  content: "\e812"; }
+  content: ""; }
 
 .claw-flow-save:before {
-  content: "\e813"; }
+  content: ""; }
 
 .claw-flow2:before {
-  content: "\e814"; }
+  content: ""; }
 
 .claw-access-add:before {
-  content: "\e815"; }
+  content: ""; }
 
 .claw-access-edit:before {
-  content: "\e829"; }
+  content: ""; }
 
 .claw-access-gear:before {
-  content: "\e82a"; }
+  content: ""; }
 
 .claw-access-remove:before {
-  content: "\e82b"; }
+  content: ""; }
 
 .claw-access-review:before {
-  content: "\e82c"; }
+  content: ""; }
 
 .claw-access-save:before {
-  content: "\e82d"; }
+  content: ""; }
 
 .claw-access:before {
-  content: "\e82e"; }
+  content: ""; }
 
 .claw-attendance-add:before {
-  content: "\e82f"; }
+  content: ""; }
 
 .claw-attendance-edit:before {
-  content: "\e830"; }
+  content: ""; }
 
 .claw-attendance-gear:before {
-  content: "\e831"; }
+  content: ""; }
 
 .claw-attendance-preview:before {
-  content: "\e832"; }
+  content: ""; }
 
 .claw-attendance-remove:before {
-  content: "\e833"; }
+  content: ""; }
 
 .claw-attendance-save:before {
-  content: "\e834"; }
+  content: ""; }
 
 .claw-attendance:before {
-  content: "\e835"; }
+  content: ""; }
 
 .claw-period-add:before {
-  content: "\e836"; }
+  content: ""; }
 
 .claw-period-edit:before {
-  content: "\e837"; }
+  content: ""; }
 
 .claw-period-gear:before {
-  content: "\e838"; }
+  content: ""; }
 
 .claw-period-preview:before {
-  content: "\e839"; }
+  content: ""; }
 
 .claw-period-remove:before {
-  content: "\e83a"; }
+  content: ""; }
 
 .claw-period-save:before {
-  content: "\e83b"; }
+  content: ""; }
 
 .claw-period:before {
-  content: "\e83c"; }
+  content: ""; }
 
 .claw-group-add:before {
-  content: "\e83d"; }
+  content: ""; }
 
 .claw-group-edit:before {
-  content: "\e83e"; }
+  content: ""; }
 
 .claw-group-gear:before {
-  content: "\e83f"; }
+  content: ""; }
 
 .claw-group-preview:before {
-  content: "\e840"; }
+  content: ""; }
 
 .claw-group-remove:before {
-  content: "\e841"; }
+  content: ""; }
 
 .claw-group-save:before {
-  content: "\e842"; }
+  content: ""; }
 
 .claw-group:before {
-  content: "\e843"; }
+  content: ""; }
 
 .claw-user-add:before {
-  content: "\e844"; }
+  content: ""; }
 
 .claw-user-edit:before {
-  content: "\e845"; }
+  content: ""; }
 
 .claw-user-gear:before {
-  content: "\e846"; }
+  content: ""; }
 
 .claw-user-preview:before {
-  content: "\e847"; }
+  content: ""; }
 
 .claw-user-remove:before {
-  content: "\e848"; }
+  content: ""; }
 
 .claw-user-save-add:before {
-  content: "\e849"; }
+  content: ""; }
 
 .claw-user-save:before {
-  content: "\e84a"; }
+  content: ""; }
 
 .claw-user:before {
-  content: "\e816"; }
+  content: ""; }
 
 .claw-plus:before {
-  content: "\e809"; }
+  content: ""; }
 
 .claw-preview:before {
-  content: "\e808"; }
+  content: ""; }
 
 .claw-search:before {
-  content: "\e805"; }
+  content: ""; }
 
 .claw-menu:before {
-  content: "\e801"; }
+  content: ""; }
 
 table {
   background-color: transparent; }

@@ -54,510 +54,888 @@
 }
 
 
-.claw-period-report:before {
-  content: "\e913";
-}
-.claw-print-edit:before {
-  content: "\e914";
-}
-.claw-role-add:before {
-  content: "\e916";
-}
-.claw-role-edit:before {
-  content: "\e917";
-}
-.claw-role-gear:before {
-  content: "\e918";
-}
-.claw-role-preview:before {
-  content: "\e919";
-}
-.claw-role-remove:before {
-  content: "\e91a";
-}
-.claw-role-report:before {
-  content: "\e91b";
-}
-.claw-role-save:before {
-  content: "\e91c";
-}
-.claw-role:before {
-  content: "\e91d";
-}
-.claw-print:before {
-  content: "\e915";
-}
-.claw-holiday-add:before {
-  content: "\e91e";
-}
-.claw-holiday-edit:before {
-  content: "\e91f";
-}
-.claw-holiday-gear:before {
-  content: "\e920";
-}
-.claw-holiday-preview:before {
-  content: "\e921";
-}
-.claw-holiday-remove:before {
-  content: "\e922";
-}
-.claw-holiday-save:before {
-  content: "\e923";
-}
-.claw-holiday:before {
-  content: "\e924";
-}
-.claw-kardex-add:before {
-  content: "\e925";
-}
-.claw-kardex-edit:before {
-  content: "\e926";
-}
-.claw-kardex-gear:before {
-  content: "\e927";
-}
-.claw-kardex-preview:before {
-  content: "\e928";
-}
-.claw-kardex-remove:before {
-  content: "\e929";
-}
-.claw-kardex-report:before {
-  content: "\e92a";
-}
-.claw-kardex-save:before {
-  content: "\e92b";
-}
-.claw-kardex:before {
-  content: "\e92c";
-}
-.claw-management-pages:before {
-  content: "\e92d";
-}
-.claw-form-designer:before {
-  content: "\e92e";
-}
-.claw-Assignment-add:before {
-  content: "\e92f";
-}
-.claw-Assignment-edit:before {
-  content: "\e930";
-}
-.claw-Assignment-gear:before {
-  content: "\e931";
-}
-.claw-Assignment-preview:before {
-  content: "\e932";
-}
-.claw-Assignment-remove:before {
-  content: "\e933";
-}
-.claw-Assignment-report:before {
-  content: "\e934";
-}
-.claw-Assignment-save:before {
-  content: "\e935";
-}
-.claw-Assignment:before {
-  content: "\e936";
-}
-.claw-film-add:before {
-  content: "\e937";
-}
-.claw-film-edit:before {
-  content: "\e938";
-}
-.claw-film-gear:before {
-  content: "\e939";
-}
-.claw-film-preview:before {
-  content: "\e93a";
-}
-.claw-film-remove:before {
-  content: "\e93b";
-}
-.claw-film-report:before {
-  content: "\e93c";
-}
-.claw-film-save:before {
-  content: "\e93d";
-}
-.claw-film:before {
-  content: "\e93e";
-}
-.claw-Folder-add:before {
-  content: "\e93f";
-}
-.claw-Folder-edit:before {
-  content: "\e940";
-}
-.claw-Folder-gear:before {
-  content: "\e941";
-}
-.claw-Folder-preview:before {
-  content: "\e942";
-}
-.claw-Folder-remove:before {
-  content: "\e943";
-}
-.claw-Folder-save:before {
-  content: "\e944";
-}
-.claw-Folder:before {
-  content: "\e945";
-}
-.claw-migration-add:before {
-  content: "\e90c";
-}
-.claw-migration:before {
-  content: "\e90d";
-}
-.claw-translate-add:before {
-  content: "\e90e";
-}
-.claw-translate-edit:before {
-  content: "\e90f";
-}
-.claw-translate-remove:before {
-  content: "\e910";
-}
-.claw-translate-save:before {
-  content: "\e911";
-}
-.claw-translate:before {
-  content: "\e912";
-}
-.claw-request-add:before {
-  content: "\e900";
-}
-.claw-request-edit:before {
-  content: "\e901";
-}
-.claw-request-gear:before {
-  content: "\e902";
-}
-.claw-request-preview:before {
-  content: "\e903";
-}
-.claw-request-remove:before {
-  content: "\e904";
-}
-.claw-request-report:before {
-  content: "\e905";
-}
-.claw-request-save:before {
-  content: "\e906";
-}
-.claw-request:before {
-  content: "\e907";
-}
-.claw-system-setting:before {
-  content: "\e908";
-}
-.claw-attendance-report:before {
-  content: "\e909";
-}
-.claw-salary-report:before {
-  content: "\e90a";
-}
-.claw-salary:before {
-  content: "\e90b";
-}
-.claw-shift-add:before {
-  content: "\e84d";
-}
-.claw-shift-edit:before {
-  content: "\e84e";
-}
-.claw-shift-gear:before {
-  content: "\e84f";
-}
-.claw-shift-preview:before {
-  content: "\e850";
-}
-.claw-shift-remove:before {
-  content: "\e851";
-}
-.claw-shift-save:before {
-  content: "\e852";
-}
-.claw-shift:before {
-  content: "\e853";
-}
-.claw-rule-add:before {
-  content: "\e854";
-}
-.claw-rule-edit:before {
-  content: "\e855";
-}
-.claw-rule-gear:before {
-  content: "\e856";
-}
-.claw-rule-preview:before {
-  content: "\e857";
-}
-.claw-rule-remove:before {
-  content: "\e858";
-}
-.claw-rule-save:before {
-  content: "\e859";
-}
-.claw-rule:before {
-  content: "\e85a";
-}
-.claw-chart-add:before {
-  content: "\e85b";
-}
-.claw-chart-edit:before {
-  content: "\e85c";
-}
-.claw-chart-gear:before {
-  content: "\e85d";
-}
-.claw-chart-preview:before {
-  content: "\e85e";
-}
-.claw-chart-remove:before {
-  content: "\e85f";
-}
-.claw-chart-save:before {
-  content: "\e860";
-}
-.claw-chart:before {
-  content: "\e861";
-}
-.claw-edit:before {
-  content: "\e862";
-}
-.claw-fav:before {
-  content: "\e84c";
-}
-.claw-dashboard:before {
-  content: "\e84b";
-}
-.claw-deactive:before {
-  content: "\e800";
-}
-.claw-minus:before {
-  content: "\e802";
-}
-.claw-gear:before {
-  content: "\e818";
-}
-.claw-user-sq:before {
-  content: "\e81f";
-}
-.claw-grid-filter-sq:before {
-  content: "\e81a";
-}
-.claw-calendar-sq:before {
-  content: "\e819";
-}
-.claw-close-inverse:before {
-  content: "\e80f";
-}
-.claw-close:before {
-  content: "\e817";
-}
-.claw-cancel:before {
-  content: "\e803";
-}
-.claw-delete:before {
-  content: "\e826";
-}
-.claw-flow:before {
-  content: "\e827";
-}
-.claw-tick:before {
-  content: "\e828";
-}
-.claw-support:before {
-  content: "\e825";
-}
-.claw-help-inverse:before {
-  content: "\e820";
-}
-.claw-help:before {
-  content: "\e821";
-}
-.claw-info-inverse:before {
-  content: "\e822";
-}
-.claw-info:before {
-  content: "\e823";
-}
-.claw-logout:before {
-  content: "\e824";
-}
-.claw-backspace-left:before {
-  content: "\e81d";
-}
-.claw-backspace-right:before {
-  content: "\e81e";
-}
-.claw-last-left:before {
-  content: "\e81b";
-}
-.claw-last-right:before {
-  content: "\e81c";
-}
-.claw-reload:before {
-  content: "\e80a";
-}
-.claw-down:before {
-  content: "\e80b";
-}
-.claw-left:before {
-  content: "\e80c";
-}
-.claw-right:before {
-  content: "\e80d";
-}
-.claw-up:before {
-  content: "\e80e";
-}
-.claw-active:before {
-  content: "\e804";
-}
-.claw-flow-add:before {
-  content: "\e806";
-}
-.claw-flow-edit:before {
-  content: "\e807";
-}
-.claw-flow-gear:before {
-  content: "\e810";
-}
-.claw-flow-remove:before {
-  content: "\e811";
-}
-.claw-flow-review:before {
-  content: "\e812";
-}
-.claw-flow-save:before {
-  content: "\e813";
-}
-.claw-flow2:before {
-  content: "\e814";
-}
-.claw-access-add:before {
-  content: "\e815";
-}
-.claw-access-edit:before {
-  content: "\e829";
-}
-.claw-access-gear:before {
-  content: "\e82a";
-}
-.claw-access-remove:before {
-  content: "\e82b";
-}
-.claw-access-review:before {
-  content: "\e82c";
-}
-.claw-access-save:before {
-  content: "\e82d";
-}
-.claw-access:before {
-  content: "\e82e";
-}
-.claw-attendance-add:before {
-  content: "\e82f";
-}
-.claw-attendance-edit:before {
-  content: "\e830";
-}
-.claw-attendance-gear:before {
-  content: "\e831";
-}
-.claw-attendance-preview:before {
-  content: "\e832";
-}
-.claw-attendance-remove:before {
-  content: "\e833";
-}
-.claw-attendance-save:before {
-  content: "\e834";
-}
-.claw-attendance:before {
-  content: "\e835";
-}
-.claw-period-add:before {
-  content: "\e836";
-}
-.claw-period-edit:before {
-  content: "\e837";
-}
-.claw-period-gear:before {
-  content: "\e838";
-}
-.claw-period-preview:before {
-  content: "\e839";
-}
-.claw-period-remove:before {
-  content: "\e83a";
-}
-.claw-period-save:before {
-  content: "\e83b";
-}
-.claw-period:before {
-  content: "\e83c";
-}
-.claw-group-add:before {
-  content: "\e83d";
-}
-.claw-group-edit:before {
-  content: "\e83e";
-}
-.claw-group-gear:before {
-  content: "\e83f";
-}
-.claw-group-preview:before {
-  content: "\e840";
-}
-.claw-group-remove:before {
-  content: "\e841";
-}
-.claw-group-save:before {
-  content: "\e842";
-}
-.claw-group:before {
-  content: "\e843";
-}
-.claw-user-add:before {
-  content: "\e844";
-}
-.claw-user-edit:before {
-  content: "\e845";
-}
-.claw-user-gear:before {
-  content: "\e846";
-}
-.claw-user-preview:before {
-  content: "\e847";
-}
-.claw-user-remove:before {
-  content: "\e848";
-}
-.claw-user-save-add:before {
-  content: "\e849";
-}
-.claw-user-save:before {
-  content: "\e84a";
-}
-.claw-user:before {
-  content: "\e816";
-}
-.claw-plus:before {
-  content: "\e809";
-}
-.claw-preview:before {
-  content: "\e808";
-}
-.claw-search:before {
-  content: "\e805";
-}
-.claw-menu:before {
-  content: "\e801";
+.claw-kardex-transmit-add {
+  &:before {
+    content: $claw-kardex-transmit-add;
+  }
+}
+.claw-kardex-transmit-edit {
+  &:before {
+    content: $claw-kardex-transmit-edit;
+  }
+}
+.claw-kardex-transmit-gear {
+  &:before {
+    content: $claw-kardex-transmit-gear;
+  }
+}
+.claw-kardex-transmit-preview {
+  &:before {
+    content: $claw-kardex-transmit-preview;
+  }
+}
+.claw-kardex-transmit-remove {
+  &:before {
+    content: $claw-kardex-transmit-remove;
+  }
+}
+.claw-kardex-transmit-report {
+  &:before {
+    content: $claw-kardex-transmit-report;
+  }
+}
+.claw-kardex-transmit-save {
+  &:before {
+    content: $claw-kardex-transmit-save;
+  }
+}
+.claw-kardex-transmit {
+  &:before {
+    content: $claw-kardex-transmit;
+  }
+}
+.claw-period-report {
+  &:before {
+    content: $claw-period-report;
+  }
+}
+.claw-print-edit {
+  &:before {
+    content: $claw-print-edit;
+  }
+}
+.claw-role-add {
+  &:before {
+    content: $claw-role-add;
+  }
+}
+.claw-role-edit {
+  &:before {
+    content: $claw-role-edit;
+  }
+}
+.claw-role-gear {
+  &:before {
+    content: $claw-role-gear;
+  }
+}
+.claw-role-preview {
+  &:before {
+    content: $claw-role-preview;
+  }
+}
+.claw-role-remove {
+  &:before {
+    content: $claw-role-remove;
+  }
+}
+.claw-role-report {
+  &:before {
+    content: $claw-role-report;
+  }
+}
+.claw-role-save {
+  &:before {
+    content: $claw-role-save;
+  }
+}
+.claw-role {
+  &:before {
+    content: $claw-role;
+  }
+}
+.claw-print {
+  &:before {
+    content: $claw-print;
+  }
+}
+.claw-holiday-add {
+  &:before {
+    content: $claw-holiday-add;
+  }
+}
+.claw-holiday-edit {
+  &:before {
+    content: $claw-holiday-edit;
+  }
+}
+.claw-holiday-gear {
+  &:before {
+    content: $claw-holiday-gear;
+  }
+}
+.claw-holiday-preview {
+  &:before {
+    content: $claw-holiday-preview;
+  }
+}
+.claw-holiday-remove {
+  &:before {
+    content: $claw-holiday-remove;
+  }
+}
+.claw-holiday-save {
+  &:before {
+    content: $claw-holiday-save;
+  }
+}
+.claw-holiday {
+  &:before {
+    content: $claw-holiday;
+  }
+}
+.claw-kardex-add {
+  &:before {
+    content: $claw-kardex-add;
+  }
+}
+.claw-kardex-edit {
+  &:before {
+    content: $claw-kardex-edit;
+  }
+}
+.claw-kardex-gear {
+  &:before {
+    content: $claw-kardex-gear;
+  }
+}
+.claw-kardex-preview {
+  &:before {
+    content: $claw-kardex-preview;
+  }
+}
+.claw-kardex-remove {
+  &:before {
+    content: $claw-kardex-remove;
+  }
+}
+.claw-kardex-report {
+  &:before {
+    content: $claw-kardex-report;
+  }
+}
+.claw-kardex-save {
+  &:before {
+    content: $claw-kardex-save;
+  }
+}
+.claw-kardex {
+  &:before {
+    content: $claw-kardex;
+  }
+}
+.claw-management-pages {
+  &:before {
+    content: $claw-management-pages;
+  }
+}
+.claw-form-designer {
+  &:before {
+    content: $claw-form-designer;
+  }
+}
+.claw-Assignment-add {
+  &:before {
+    content: $claw-Assignment-add;
+  }
+}
+.claw-Assignment-edit {
+  &:before {
+    content: $claw-Assignment-edit;
+  }
+}
+.claw-Assignment-gear {
+  &:before {
+    content: $claw-Assignment-gear;
+  }
+}
+.claw-Assignment-preview {
+  &:before {
+    content: $claw-Assignment-preview;
+  }
+}
+.claw-Assignment-remove {
+  &:before {
+    content: $claw-Assignment-remove;
+  }
+}
+.claw-Assignment-report {
+  &:before {
+    content: $claw-Assignment-report;
+  }
+}
+.claw-Assignment-save {
+  &:before {
+    content: $claw-Assignment-save;
+  }
+}
+.claw-Assignment {
+  &:before {
+    content: $claw-Assignment;
+  }
+}
+.claw-film-add {
+  &:before {
+    content: $claw-film-add;
+  }
+}
+.claw-film-edit {
+  &:before {
+    content: $claw-film-edit;
+  }
+}
+.claw-film-gear {
+  &:before {
+    content: $claw-film-gear;
+  }
+}
+.claw-film-preview {
+  &:before {
+    content: $claw-film-preview;
+  }
+}
+.claw-film-remove {
+  &:before {
+    content: $claw-film-remove;
+  }
+}
+.claw-film-report {
+  &:before {
+    content: $claw-film-report;
+  }
+}
+.claw-film-save {
+  &:before {
+    content: $claw-film-save;
+  }
+}
+.claw-film {
+  &:before {
+    content: $claw-film;
+  }
+}
+.claw-Folder-add {
+  &:before {
+    content: $claw-Folder-add;
+  }
+}
+.claw-Folder-edit {
+  &:before {
+    content: $claw-Folder-edit;
+  }
+}
+.claw-Folder-gear {
+  &:before {
+    content: $claw-Folder-gear;
+  }
+}
+.claw-Folder-preview {
+  &:before {
+    content: $claw-Folder-preview;
+  }
+}
+.claw-Folder-remove {
+  &:before {
+    content: $claw-Folder-remove;
+  }
+}
+.claw-Folder-save {
+  &:before {
+    content: $claw-Folder-save;
+  }
+}
+.claw-Folder {
+  &:before {
+    content: $claw-Folder;
+  }
+}
+.claw-migration-add {
+  &:before {
+    content: $claw-migration-add;
+  }
+}
+.claw-migration {
+  &:before {
+    content: $claw-migration;
+  }
+}
+.claw-translate-add {
+  &:before {
+    content: $claw-translate-add;
+  }
+}
+.claw-translate-edit {
+  &:before {
+    content: $claw-translate-edit;
+  }
+}
+.claw-translate-remove {
+  &:before {
+    content: $claw-translate-remove;
+  }
+}
+.claw-translate-save {
+  &:before {
+    content: $claw-translate-save;
+  }
+}
+.claw-translate {
+  &:before {
+    content: $claw-translate;
+  }
+}
+.claw-request-add {
+  &:before {
+    content: $claw-request-add;
+  }
+}
+.claw-request-edit {
+  &:before {
+    content: $claw-request-edit;
+  }
+}
+.claw-request-gear {
+  &:before {
+    content: $claw-request-gear;
+  }
+}
+.claw-request-preview {
+  &:before {
+    content: $claw-request-preview;
+  }
+}
+.claw-request-remove {
+  &:before {
+    content: $claw-request-remove;
+  }
+}
+.claw-request-report {
+  &:before {
+    content: $claw-request-report;
+  }
+}
+.claw-request-save {
+  &:before {
+    content: $claw-request-save;
+  }
+}
+.claw-request {
+  &:before {
+    content: $claw-request;
+  }
+}
+.claw-system-setting {
+  &:before {
+    content: $claw-system-setting;
+  }
+}
+.claw-attendance-report {
+  &:before {
+    content: $claw-attendance-report;
+  }
+}
+.claw-salary-report {
+  &:before {
+    content: $claw-salary-report;
+  }
+}
+.claw-salary {
+  &:before {
+    content: $claw-salary;
+  }
+}
+.claw-shift-add {
+  &:before {
+    content: $claw-shift-add;
+  }
+}
+.claw-shift-edit {
+  &:before {
+    content: $claw-shift-edit;
+  }
+}
+.claw-shift-gear {
+  &:before {
+    content: $claw-shift-gear;
+  }
+}
+.claw-shift-preview {
+  &:before {
+    content: $claw-shift-preview;
+  }
+}
+.claw-shift-remove {
+  &:before {
+    content: $claw-shift-remove;
+  }
+}
+.claw-shift-save {
+  &:before {
+    content: $claw-shift-save;
+  }
+}
+.claw-shift {
+  &:before {
+    content: $claw-shift;
+  }
+}
+.claw-rule-add {
+  &:before {
+    content: $claw-rule-add;
+  }
+}
+.claw-rule-edit {
+  &:before {
+    content: $claw-rule-edit;
+  }
+}
+.claw-rule-gear {
+  &:before {
+    content: $claw-rule-gear;
+  }
+}
+.claw-rule-preview {
+  &:before {
+    content: $claw-rule-preview;
+  }
+}
+.claw-rule-remove {
+  &:before {
+    content: $claw-rule-remove;
+  }
+}
+.claw-rule-save {
+  &:before {
+    content: $claw-rule-save;
+  }
+}
+.claw-rule {
+  &:before {
+    content: $claw-rule;
+  }
+}
+.claw-chart-add {
+  &:before {
+    content: $claw-chart-add;
+  }
+}
+.claw-chart-edit {
+  &:before {
+    content: $claw-chart-edit;
+  }
+}
+.claw-chart-gear {
+  &:before {
+    content: $claw-chart-gear;
+  }
+}
+.claw-chart-preview {
+  &:before {
+    content: $claw-chart-preview;
+  }
+}
+.claw-chart-remove {
+  &:before {
+    content: $claw-chart-remove;
+  }
+}
+.claw-chart-save {
+  &:before {
+    content: $claw-chart-save;
+  }
+}
+.claw-chart {
+  &:before {
+    content: $claw-chart;
+  }
+}
+.claw-edit {
+  &:before {
+    content: $claw-edit;
+  }
+}
+.claw-fav {
+  &:before {
+    content: $claw-fav;
+  }
+}
+.claw-dashboard {
+  &:before {
+    content: $claw-dashboard;
+  }
+}
+.claw-deactive {
+  &:before {
+    content: $claw-deactive;
+  }
+}
+.claw-minus {
+  &:before {
+    content: $claw-minus;
+  }
+}
+.claw-gear {
+  &:before {
+    content: $claw-gear;
+  }
+}
+.claw-user-sq {
+  &:before {
+    content: $claw-user-sq;
+  }
+}
+.claw-grid-filter-sq {
+  &:before {
+    content: $claw-grid-filter-sq;
+  }
+}
+.claw-calendar-sq {
+  &:before {
+    content: $claw-calendar-sq;
+  }
+}
+.claw-close-inverse {
+  &:before {
+    content: $claw-close-inverse;
+  }
+}
+.claw-close {
+  &:before {
+    content: $claw-close;
+  }
+}
+.claw-cancel {
+  &:before {
+    content: $claw-cancel;
+  }
+}
+.claw-delete {
+  &:before {
+    content: $claw-delete;
+  }
+}
+.claw-flow {
+  &:before {
+    content: $claw-flow;
+  }
+}
+.claw-tick {
+  &:before {
+    content: $claw-tick;
+  }
+}
+.claw-support {
+  &:before {
+    content: $claw-support;
+  }
+}
+.claw-help-inverse {
+  &:before {
+    content: $claw-help-inverse;
+  }
+}
+.claw-help {
+  &:before {
+    content: $claw-help;
+  }
+}
+.claw-info-inverse {
+  &:before {
+    content: $claw-info-inverse;
+  }
+}
+.claw-info {
+  &:before {
+    content: $claw-info;
+  }
+}
+.claw-logout {
+  &:before {
+    content: $claw-logout;
+  }
+}
+.claw-backspace-left {
+  &:before {
+    content: $claw-backspace-left;
+  }
+}
+.claw-backspace-right {
+  &:before {
+    content: $claw-backspace-right;
+  }
+}
+.claw-last-left {
+  &:before {
+    content: $claw-last-left;
+  }
+}
+.claw-last-right {
+  &:before {
+    content: $claw-last-right;
+  }
+}
+.claw-reload {
+  &:before {
+    content: $claw-reload;
+  }
+}
+.claw-down {
+  &:before {
+    content: $claw-down;
+  }
+}
+.claw-left {
+  &:before {
+    content: $claw-left;
+  }
+}
+.claw-right {
+  &:before {
+    content: $claw-right;
+  }
+}
+.claw-up {
+  &:before {
+    content: $claw-up;
+  }
+}
+.claw-active {
+  &:before {
+    content: $claw-active;
+  }
+}
+.claw-flow-add {
+  &:before {
+    content: $claw-flow-add;
+  }
+}
+.claw-flow-edit {
+  &:before {
+    content: $claw-flow-edit;
+  }
+}
+.claw-flow-gear {
+  &:before {
+    content: $claw-flow-gear;
+  }
+}
+.claw-flow-remove {
+  &:before {
+    content: $claw-flow-remove;
+  }
+}
+.claw-flow-review {
+  &:before {
+    content: $claw-flow-review;
+  }
+}
+.claw-flow-save {
+  &:before {
+    content: $claw-flow-save;
+  }
+}
+.claw-flow2 {
+  &:before {
+    content: $claw-flow2;
+  }
+}
+.claw-access-add {
+  &:before {
+    content: $claw-access-add;
+  }
+}
+.claw-access-edit {
+  &:before {
+    content: $claw-access-edit;
+  }
+}
+.claw-access-gear {
+  &:before {
+    content: $claw-access-gear;
+  }
+}
+.claw-access-remove {
+  &:before {
+    content: $claw-access-remove;
+  }
+}
+.claw-access-review {
+  &:before {
+    content: $claw-access-review;
+  }
+}
+.claw-access-save {
+  &:before {
+    content: $claw-access-save;
+  }
+}
+.claw-access {
+  &:before {
+    content: $claw-access;
+  }
+}
+.claw-attendance-add {
+  &:before {
+    content: $claw-attendance-add;
+  }
+}
+.claw-attendance-edit {
+  &:before {
+    content: $claw-attendance-edit;
+  }
+}
+.claw-attendance-gear {
+  &:before {
+    content: $claw-attendance-gear;
+  }
+}
+.claw-attendance-preview {
+  &:before {
+    content: $claw-attendance-preview;
+  }
+}
+.claw-attendance-remove {
+  &:before {
+    content: $claw-attendance-remove;
+  }
+}
+.claw-attendance-save {
+  &:before {
+    content: $claw-attendance-save;
+  }
+}
+.claw-attendance {
+  &:before {
+    content: $claw-attendance;
+  }
+}
+.claw-period-add {
+  &:before {
+    content: $claw-period-add;
+  }
+}
+.claw-period-edit {
+  &:before {
+    content: $claw-period-edit;
+  }
+}
+.claw-period-gear {
+  &:before {
+    content: $claw-period-gear;
+  }
+}
+.claw-period-preview {
+  &:before {
+    content: $claw-period-preview;
+  }
+}
+.claw-period-remove {
+  &:before {
+    content: $claw-period-remove;
+  }
+}
+.claw-period-save {
+  &:before {
+    content: $claw-period-save;
+  }
+}
+.claw-period {
+  &:before {
+    content: $claw-period;
+  }
+}
+.claw-group-add {
+  &:before {
+    content: $claw-group-add;
+  }
+}
+.claw-group-edit {
+  &:before {
+    content: $claw-group-edit;
+  }
+}
+.claw-group-gear {
+  &:before {
+    content: $claw-group-gear;
+  }
+}
+.claw-group-preview {
+  &:before {
+    content: $claw-group-preview;
+  }
+}
+.claw-group-remove {
+  &:before {
+    content: $claw-group-remove;
+  }
+}
+.claw-group-save {
+  &:before {
+    content: $claw-group-save;
+  }
+}
+.claw-group {
+  &:before {
+    content: $claw-group;
+  }
+}
+.claw-user-add {
+  &:before {
+    content: $claw-user-add;
+  }
+}
+.claw-user-edit {
+  &:before {
+    content: $claw-user-edit;
+  }
+}
+.claw-user-gear {
+  &:before {
+    content: $claw-user-gear;
+  }
+}
+.claw-user-preview {
+  &:before {
+    content: $claw-user-preview;
+  }
+}
+.claw-user-remove {
+  &:before {
+    content: $claw-user-remove;
+  }
+}
+.claw-user-save-add {
+  &:before {
+    content: $claw-user-save-add;
+  }
+}
+.claw-user-save {
+  &:before {
+    content: $claw-user-save;
+  }
+}
+.claw-user {
+  &:before {
+    content: $claw-user;
+  }
+}
+.claw-plus {
+  &:before {
+    content: $claw-plus;
+  }
+}
+.claw-preview {
+  &:before {
+    content: $claw-preview;
+  }
+}
+.claw-search {
+  &:before {
+    content: $claw-search;
+  }
+}
+.claw-menu {
+  &:before {
+    content: $claw-menu;
+  }
 }

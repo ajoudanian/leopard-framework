@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'clawicon';
-    src:    url('fonts/clawicon.eot?n9osu1');
-    src:    url('fonts/clawicon.eot?n9osu1#iefix') format('embedded-opentype'),
-        url('fonts/clawicon.ttf?n9osu1') format('truetype'),
-        url('fonts/clawicon.woff?n9osu1') format('woff'),
-        url('fonts/clawicon.svg?n9osu1#clawicon') format('svg');
+    src:    url('fonts/clawicon.eot?7813v5');
+    src:    url('fonts/clawicon.eot?7813v5#iefix') format('embedded-opentype'),
+        url('fonts/clawicon.ttf?7813v5') format('truetype'),
+        url('fonts/clawicon.woff?7813v5') format('woff'),
+        url('fonts/clawicon.svg?7813v5#clawicon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,6 +24,30 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.claw-kardex-transmit-add:before {
+    content: "\e946";
+}
+.claw-kardex-transmit-edit:before {
+    content: "\e947";
+}
+.claw-kardex-transmit-gear:before {
+    content: "\e948";
+}
+.claw-kardex-transmit-preview:before {
+    content: "\e949";
+}
+.claw-kardex-transmit-remove:before {
+    content: "\e94a";
+}
+.claw-kardex-transmit-report:before {
+    content: "\e94b";
+}
+.claw-kardex-transmit-save:before {
+    content: "\e94c";
+}
+.claw-kardex-transmit:before {
+    content: "\e94d";
+}
 .claw-period-report:before {
     content: "\e913";
 }
