@@ -3976,15 +3976,15 @@ input[type="button"].btn-block {
 .k-grid-footer-wrap {
   border: none; }
 
-.personcombo-wrapper {
+.combogrid-wrapper {
   position: relative; }
-  .personcombo-wrapper
+  .combogrid-wrapper
 .ui-autocomplete-input {
     text-indent: 30px; }
-    .personcombo-wrapper
+    .combogrid-wrapper
 .ui-autocomplete-input.cg-loading {
       background-position: 29px 10px; }
-  .personcombo-wrapper:before {
+  .combogrid-wrapper:before {
     position: relative;
     display: inline-block;
     font-family: 'clawicon';
@@ -4003,9 +4003,9 @@ input[type="button"].btn-block {
     font-size: 22px;
     left: 7px;
     content: ""; }
-  .personcombo-wrapper:focus:before {
+  .combogrid-wrapper:focus:before {
     color: #5094ce; }
-  .personcombo-wrapper
+  .combogrid-wrapper
 .cg-resetButton {
     position: absolute;
     right: 3px;
@@ -4016,7 +4016,7 @@ input[type="button"].btn-block {
     display: block;
     height: 19px;
     width: 19px; }
-    .personcombo-wrapper
+    .combogrid-wrapper
 .cg-resetButton
 .ui-icon {
       position: relative;
@@ -4035,7 +4035,7 @@ input[type="button"].btn-block {
       text-indent: 0;
       color: #78acd9;
       right: 0px; }
-      .personcombo-wrapper
+      .combogrid-wrapper
 .cg-resetButton
 .ui-icon:before {
         content: ""; }
@@ -5412,14 +5412,14 @@ th {
   left: 2px;
   right: auto; }
 
-.personcombo-wrapper:before {
+.combogrid-wrapper:before {
   left: auto;
   right: 7px; }
 
-.personcombo-wrapper .cg-resetButton {
+.combogrid-wrapper .cg-resetButton {
   right: auto;
   left: 3px; }
-  .personcombo-wrapper .cg-resetButton
+  .combogrid-wrapper .cg-resetButton
 .ui-icon:before {
     content: ""; }
 
