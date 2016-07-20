@@ -189,12 +189,12 @@ input[type="search"] {
     }
 
     &.leo-input-sm,
-    .leo-input-group-sm & {
+    .input-group-sm & {
       line-height: $input-height-small;
     }
 
     &.leo-input-lg,
-    .leo-input-group-lg & {
+    .input-group-lg & {
       line-height: $input-height-large;
     }
   }
@@ -406,14 +406,14 @@ input[type="checkbox"] {
   pointer-events: none;
 }
 .leo-input-lg + .leo-form-control-feedback,
-.leo-input-group-lg + .leo-form-control-feedback,
+.input-group-lg + .leo-form-control-feedback,
 .leo-form-group-lg .leo-form-control + .leo-form-control-feedback {
   width: $input-height-large;
   height: $input-height-large;
   line-height: $input-height-large;
 }
 .leo-input-sm + .leo-form-control-feedback,
-.leo-input-group-sm + .leo-form-control-feedback,
+.input-group-sm + .leo-form-control-feedback,
 .leo-form-group-sm .leo-form-control + .leo-form-control-feedback {
   width: $input-height-small;
   height: $input-height-small;
@@ -491,19 +491,19 @@ input[type="checkbox"] {
       display: inline-block;
     }
 
-    .leo-input-group {
+    .input-group {
       display: inline-table;
       vertical-align: middle;
 
-      .leo-input-group-addon,
-      .leo-input-group-btn,
+      .input-group-addon,
+      .input-group-btn,
       .leo-form-control {
         width: auto;
       }
     }
 
     // Input groups need that 100% width though
-    .leo-input-group > .leo-form-control {
+    .input-group > .leo-form-control {
       width: 100%;
     }
 
