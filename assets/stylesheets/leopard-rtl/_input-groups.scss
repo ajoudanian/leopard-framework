@@ -27,7 +27,7 @@
 }
 .input-group-addon:first-child {
   border-left: 0;
-  border-right: inherit;
+  border-right: 1px solid $input-group-addon-border-color;
 }
 .input-group .leo-form-control:last-child,
 .input-group-addon:last-child,
@@ -40,7 +40,7 @@
   @include border-right-radius(0);
 }
 .input-group-addon:last-child {
-  border-left: inherit;
+  border-left: 1px solid $input-group-addon-border-color;
   border-right: 0;
 }
 
